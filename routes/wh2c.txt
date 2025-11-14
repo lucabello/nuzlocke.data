@@ -76,7 +76,7 @@ Icirrus City|barboach,whiscash,croagunk,palpitoad,seismitoad,karrablast,shelmet,
 Dragonspiral Tower|dratini,dragonair,dragonite,tranquill,unfezant,audino,basculin,vanillish,vanilluxe,sawsbuck,emolga,beartic,mienfoo,mienshao,druddigon,golurk,reshiram
 Twist Mountain|onix,steelix,regigigas,boldore,woobat,excadrill,gurdurr,beartic,cryogonal,heatmor,durant
 Clay Tunnel|poliwag,poliwhirl,poliwrath,onix,steelix,nosepass,lairon,boldore,woobat,excadrill,basculin,durant
-Underground Ruins|
+Underground Ruins
 Pinwheel Forest|goldeen,seaking,marill,azumarill,yanma,vigoroth,slaking,toxicroak,yanmega,pansage,pansear,panpour,audino,gurdurr,palpitoad,seismitoad,throh,sawk,swadloon,whirlipede,scolipede,petilil,lilligant,basculin
 Nacrene City|omanyte,kabuto,aerodactyl,lileep,anorith,cranidos,shieldon,uxie,tirtouga,archen
 Route 3|goldeen,seaking,yanma,corphish,crawdaunt,yanmega,watchog,herdier,stoutland,purrloin,tranquill,unfezant,zebstrika,audino,basculin

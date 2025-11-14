@@ -1,5 +1,3 @@
-# League rs.txt
-
 Starter|treecko,mudkip,torchic
 Littleroot Town|chikorita,cyndaquil,totodile
 Route 101|poochyena,zigzagoon,wurmple

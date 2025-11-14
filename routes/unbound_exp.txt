@@ -74,11 +74,9 @@ Crystal Peak|loudred,woobat,onix,noibat,zweilous,steelix,skarmory,noivern,drifbl
 --Crystal Peak|lr3_exp|evil-team|Ruin Admin Ivory
 --Crystal Peak|lr4_exp|evil-team|Ruin Leader Aklove
 --Crystal Peak|sh7_exp|evil-team|Ex-Shadow Admin Marlon
-
 Magnolia Fields|noctowl,tranquill,furfrou,mudsdale,gogoat,miltank,tauros,quilava,dubwool,frillish,pelipper,jellicent,magikarp,gyarados,wailmer,wailord,qwilfish
 Redwood Village|magikarp,lampent
 --Redwood Village Gym|8_exp|gym-leader|Leader Benjamin
-
 Route 18|farfetchd,noctowl,skuntank,persian,bouffalant,sudowoodo,happiny,bayleef,stonjourner,tentacool,pelipper,tentacruel,mantine,magikarp,remoraid,corsola,horsea,octillery,seadra,gyarados,binacle,geodude,krabby,kingler
 Victory Road|golbat,boldore,durant,woobat,graveler,magcargo,salazzle,camerupt,excadrill,heatmor,magmar,druddigon,turtonator,drampa,drakloak,roselia,chansey,lurantis,jigglypuff,corvisquire,hakamo-o,abomasnow,glalie,vanillish,beartic,minior,darmanitan-galar,hariyama,sealeo,jynx,avalugg,piloswine,lumineon,golbat,marill,azumarill,magcargo,woobat,floatzel,basculin,dewgong,sealeo,lapras,magikarp,finneon,psyduck,luvdisc,seel,shellder,golduck,gyarados,bruxish
 --Pokémon League|e1_exp|elite-four|Moleman
@@ -86,11 +84,9 @@ Victory Road|golbat,boldore,durant,woobat,graveler,magcargo,salazzle,camerupt,ex
 --Pokémon League|e3_exp|elite-four|Arabella
 --Pokémon League|e4_exp|elite-four|Penny
 --Pokémon League Champion|c_exp|elite-four|Jax
-
 Tomb of Borrius|graveler,shuckle,unown,sigilyph
 Rift Cave|golbat,haunter,duskull,golett,bronzor,chimecho,bronzong,dusclops,golurk,sinistea
 Redwood Forest|ledian,ariados,vigoroth,ursaring,heracross,komala,passimian,oranguru,aipom,pineco,scyther,pinsir,nincada,raboot,thwackey,golduck,masquerain,drizzile,magikarp,psyduck,barboach,whiscash
 Cliff Cave|golbat,geodude-alola,machop,onix,wooper,misdreavus,quagsire,graveler-alola,machoke,steelix
 Cube Corp.|jellicent,pelipper,ditto,dracovish,arctovish,magikarp,gyarados,wailmer,wailord
-
 --Ruins of Void|lr5_exp|evil-team|Ruin Leader Aklove

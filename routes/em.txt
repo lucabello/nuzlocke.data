@@ -94,6 +94,6 @@ Victory Road|zubat,golbat,geodude,graveler,goldeen,magikarp,whismur,loudred,maku
 --Pokémon League|e4|elite-four|Drake
 --Pokémon League Champion|c1|elite-four|Wallace
 --Meteor Falls Champion|c2|rival|Steven
-S.S. Tidal|
-Battle Frontier|
+S.S. Tidal
+Battle Frontier
 Artisan Cave|smeargle

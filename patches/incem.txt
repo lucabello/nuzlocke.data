@@ -6,7 +6,7 @@ kingdranite|garchompite|Allows Kingdra to Mega Evolve into Mega Kingdra.
 
 # move name | type | power | description
 --move
-cut|steel|90|Has an increased chance for a critical hit.
+cut|steel|60|Has an increased chance for a critical hit.
 strength|rock|100|Lowers the user's Defense and Special Defense by one stage after use.
 wing-attack||80
 shadow-punch||80
@@ -21,6 +21,7 @@ steel-wing||90
 power-gem||90
 needle-arm||90
 cross-poison||90
+rock-smash||50
 x-scissor|||Has an increased chance for a critical hit.
 
 hidden-power-fire|fire|60||special|Hidden Power
@@ -148,7 +149,7 @@ whiteout|Boosts the power of Ice-type attacks in Hail by 1.5×.
 ,,,93,,105|illumise|bug,fairy
 ,83,93,83,93|swalot
 ,,,115|sharpedo
-,150,,,,115|sharpedo-mega
+70,150,120,40,40,115|sharpedo-mega
 ,,65,,65|wailord
 90,,80,,85|camerupt
 90,,110,,115|camerupt-mega

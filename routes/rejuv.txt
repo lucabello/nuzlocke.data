@@ -1,0 +1,198 @@
+003 Route 11|mantyke,tentacool,wailmer,rocksmash,geodude,binacle,seel,spheal,dewgong,luvdisc,sealeo,alomomola,walrein
+004 Amethyst Cave|woobat,geodude,sandshrew,diglett,carbink,remoraid,barboach,whiscash,octillery,seaking
+005 Route 1|psyduck,golduck,finneon,lumineon,caterpie,sentret,pidove,scatterbug,pidgey,deerling,furret,weedle,paras,kakuna,metapod
+008 Goldenwood Cave|noibat,geodude,woobat,furret,psyduck,golduck,goldeen,seaking
+009 Dream District|clauncher,mantine,bruxish,goldeen,seaking,gastrodon,whiscash,quagsire,clawitzer,tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+012 Wispy Chasm|golett,zigzagoon,yamask,graveler,baltoy,claydol,linoone
+013 Akuwa Town|seel,finneon,buizel,remoraid,alomomola,luvdisc,octillery,dewgong,floatzel,skitty,delcatty,blitzle,girafarig,audino,lickitung,illumise,volbeat,noctowl
+019 East Gearen City - Neo|shinx,sunkern,electrike,luxio,sunflora,glameow,teddiursa,purugly,manectric,mimejr,petilil,minccino,oddish,houndour,gloom,stunky,scraggy,skuntank,houndoom
+020 Gearen Alleyway|sentret,poochyena,drowzee,rattata,munna,pidgey,patrat
+022 Garufa Ruins|mantyke,wailmer,mantine,rocksmash,geodude,binacle,goldeen,seaking,basculin,alomomola,luvdisc
+024 Gearen Park|pansage,spearow,psyduck,skwovet,fomantis,seedot,mankey,pansear,panpour,stunky,kricketot
+025 Goldenwood Forest|sentret,poochyena,spewpa,deerling,pidove,furret,finneon
+028 Axis High University|clauncher,mantine,bruxish,goldeen,seaking,gastrodon,whiscash,quagsire,clawitzer,chatot,skiddo,leavanny,forretress,lillipup,gogoat,togedemaru,stoutland,electrike,manectric,rattata,raticate,hoothoot,noctowl,ariados,dustox
+044 East Gearen City | Neo
+050 Goldenwood Forest|sentret,poochyena,spewpa,deerling,pidove,furret,finneon
+055 Abandoned Sewers|rattata,trubbish,gulpin,ekans,poochyena,koffing,noibat,geodude,grimer,qwilfish,skrelp,muk,dragalge
+057 Land of Broken Dreams|morelull,drowzee,koffing,komala,weezing,shiinotic,hypno,munna,sableye
+058 East Gearen City|wurmple,rattata,bellsprout,patrat,pidgey,sunkern,bidoof,pidove,oddish,poochyena,hoothoot,chingling
+059 East Gearen City|paras,rattata,patrat,pidgey,klink,bidoof,pidove,jigglypuff,poochyena,hoothoot
+064 Corrupted Cave|zubat,salandit,golbat,seviper,muk,torkoal
+067 Route 3|fletchinder,yamper,herdier,doduo,boltund,zangoose,quagsire,drednaw,wooper,chewtle
+075 Evergreen Island|mantyke,tentacool,wailmer,rocksmash,geodude,binacle,seel,spheal,dewgong,luvdisc,sealeo,alomomola,walrein
+077 Amethyst Depths|chingling,geodude,sandshrew,natu,diglett,carbink,remoraid,barboach,goldeen,whiscash,seaking
+082 Goldenleaf Town|goldeen,finneon,basculin,wooper,jellicent,phanpy,meowth,bunnelby,pineco,diggersby,cubone,spoink,pumpkaboo,drowzee,noctowl,hypno,drifloon
+086 Nightmare Casino|munna,drowzee,musharna,hypno
+087 Route 10|liepard,pangoro,sudowoodo,mothim,lycanroc,talonflame,mantyke,dewgong,sealeo,mantine,wingull,spheal,quagsire,shellder,gastrodon,whiscash,clawitzer,cloyster,walrein
+090 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+091 Forgotten Path|goldeen,finneon,basculin,wooper,jellicent,phanpy,meowth,bunnelby,pineco,diggersby,cubone,spoink,pumpkaboo,munna,drowzee,noctowl,linoone,drifloon
+095 Wispy Path|pumpkaboo,spewpa,spoink,zigzagoon,phanpy,mightyena,linoone,drifloon,goldeen,seaking,basculin,lumineon,whiscash,jellicent
+097 Phasial Cave|meowth,wooper,silicobra,chewtle,bibarel,venipede,quagsire,drednaw
+100 Route 11|mantyke,tentacool,wailmer,rocksmash,geodude,binacle,seel,spheal,dewgong,luvdisc,sealeo,alomomola,walrein
+102 Wispy Tower|cubone,donphan,stonjourner,phantump,shuppet,banette,marowak,trevenant,shedinja
+106 Route 4|sunkern,sunflora,meowth,bounsweet,tranquill,togedemaru,plusle,taillow,fletchinder,minun,landnight
+109 Amethyst Depths|chingling,geodude,sandshrew,natu,diglett,carbink,remoraid,barboach,goldeen,whiscash,seaking
+111 Axis Factory|flaaffy,litwick,klang,klinklang,ampharos
+112 Darchlight Manor|duskull,shuppet,dusclops,misdreavus,banette,sinistea,mismagius,rocksmash,golett,golurk
+113 Darchlight Manor|duskull,shuppet,dusclops,misdreavus,banette,sinistea,mismagius,rocksmash,golett,golurk
+115 Route 4|sunkern,sunflora,meowth,bounsweet,tranquill,togedemaru,plusle,linoone,fletchinder,minun,landnight
+116 Phasial Cave|silicobra,meowth,chewtle,wooper,bibarel,venipede,quagsire,drednaw
+118 Forest of Time|snover,beautifly,cubchoo,butterfree,beartic,abomasnow,klang,headbuttlow,cascoon,crabrawler,dustox,pineco,forretress,headbutthigh,aipom,swablu,beedrill,altaria
+119 Carotos Mountain|slugma,numel,onix,rolycoly,nosepass,goodrod
+127 Sheridan Village|nuzleaf,beautifly,makuhita,unfezant,shiftry,pinsir,hariyama,heracross
+129 Route 4|sunkern,sunflora,meowth,bounsweet,tranquill,togedemaru,plusle,nuzleaf,fletchinder,minun,landnight
+137 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+138 Chamber of Awakening|slugma,salandit,golbat,seviper,magcargo,salazzle
+139 Valor Mountain|sandygast,boldore,golett,nidorino,marowak,nidorina,dugtrio,claydol,druddigon,seel,dewgong,sealeo,clauncher,staryu,clawitzer,starmie,walrein,slugma,sandygast,magcargo,camerupt,sizzlipede,heatmor,turtonator
+142 Moon Field|cleffa,minior,solrock,herdier,lunatone,clefairy,quagsire,drednaw,wooper,chewtle
+146 Valor Mountain|sandygast,sandslash,abomasnow,beartic,delibird,cryogonal,piloswine,drampa,bergmite
+149 Mirage Woods|spritzee,kecleon,stantler,doduo,zangoose,surskit,lumineon,masquerain,wooper,chewtle,quagsire,drednaw
+155 Darchlight Manor|duskull,shuppet,dusclops,misdreavus,banette,mismagius
+159 Amethyst Cave|woobat,geodude,sandshrew,diglett,carbink,remoraid,barboach,whiscash,octillery,seaking
+162 Amethyst Mines|woobat,graveler,swoobat,sandslash,dugtrio,carbink,remoraid,barboach,whiscash,octillery,seaking
+166 Route 4|sunkern,sunflora,meowth,bounsweet,tranquill,togedemaru,emolga,plusle,nuzleaf,fletchinder,minun,landnight,sunkern,sunflora,meowth,bounsweet,tranquill,emolga,nuzleaf,fletchinder,togedemaru,minun,plusle
+175 Valor Cliffside|minior,mudbray,rhyhorn,carnivine,mudsdale,rhydon
+184 Amethyst Cave|woobat,geodude,sandshrew,diglett,carbink,remoraid,barboach,whiscash,octillery,seaking
+191 Terajuma Island|krabby,dustox,beautifly,exeggcute,pyukumuku,mantyke,wailmer,carvanha,rocksmash,chewtle,binacle,wishiwashi,sharpedo,wailord,dhelmise
+192 Main Street|tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+194 Central Square|tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+195 Residential District|clauncher,mantine,bruxish,goldeen,seaking,gastrodon,whiscash,quagsire,clawitzer,tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+197 Dream District|tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+199 Route 2|surskit,panpour,rocksmash,geodude,diglett,finneon,lumineon,seaking,poliwrath,headbuttlow,aipom,crabrawler,pineco,butterfree,burmy,metapod,beedrill,headbutthigh,caterpie,weedle,pidgey,deerling,combee,spearow,cherubi,dedenne,spritzee,swirlix,volbeat,pidgeotto,drowzee,illumise,spinarak,oddish,hoothoot,chingling
+206 Spring of Purification|bellsprout,zigzagoon,illumise,volbeat,paras,oddish,goldeen,seaking
+207 Terajuma Pier|krabby,dustox,beautifly,exeggcute,pyukumuku,pincurchin,mantyke,wailmer,carvanha,rocksmash,chewtle,binacle,wishiwashi,sharpedo,wailord,dhelmise
+208 Deep Terajuma Jungle|bibarel,trumbeak,gumshoos,ekans,grubbin,butterfree,beedrill,toucannon,carvanha,golduck,wishiwashi,sharpedo,dhelmise,weepinbell,charjabug,foongus,exeggcute,morelull,hoothoot,spinarak,oddish,venonat,gloom,kricketune,ariados,noctowl
+209 Shopping District|tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+210 Terajuma Jungle|carvanha,golduck,wishiwashi,sharpedo,dhelmise,grubbin,weepinbell,trumbeak,bibarel,charjabug,foongus,exeggcute,butterfree,beedrill,morelull,hoothoot,spinarak,oddish,venonat,gloom,kricketune,ariados,noctowl
+217 Goldenwood Park|bunnelby,buneary,lycanroc,nincada,vivillon,tranquill,greedent,diggersby,lopunny,ninjask,unfezant,poliwag,lotad,poliwhirl,lombre,ludicolo,finneon,clauncher,lumineon,qwilfish,clawitzer,wishiwashi,cloyster
+218 Dream District|clauncher,mantine,bruxish,goldeen,seaking,gastrodon,whiscash,quagsire,clawitzer,tranquill,skwovet,leavanny,forretress,lillipup,greedent,unfezant,togedemaru,stoutland,skiddo,yamper,gogoat,pidgeot,boltund,rattata,thievul,raticate,nickit,hoothoot,noctowl,ariados,dustox
+221 Sheridan Wetlands|tympole,barboach,palpitoad,shellos,rocksmash,geodude,dwebble,shuckle,corphish,seismitoad,gastrodon,crawdaunt,whiscash,tangela,stunfisk,skorupi,croagunk,karrablast,carnivine,misdreavus,pumpkaboo,phantump
+222 Wetlands Laboratory|tentacool,quagsire,tentacruel,chinchou,lanturn
+227 Darchlight Caves|bronzor,graveler,wynaut,sandslash,carbink,wobbuffet,dugtrio,bronzong
+228 Chrisola Hotel Rooftop|skitty,caterpie,glameow,meowth,bellsprout,purrloin,weedle,oddish
+236 Route 3|liepard,delcatty,dubwool,pidgeotto,loudred,pidgeot,surskit,lombre,masquerain,lotad,basculin,carvanha,sharpedo
+238 West Gearen City|klang,watchog,bibarel,weepinbell,raticate,mightyena,morpeko,meowth,parasect,purugly,perrserker
+239 West Gearen City|liepard,watchog,bibarel,weepinbell,dustox,raticate,mightyena,glameow,unfezant,beedrill,parasect,purugly,chimecho
+240 Kugearen Woods|nuzleaf,beautifly,teddiursa,unfezant,shiftry,delcatty,dustox,ursaring,carvanha,basculin,sharpedo,barboach,whiscash,headbuttlow,cascoon,pineco,silcoon,forretress,headbutthigh
+244 Heracross Woods|heracross,beautifly,unfezant,shiftry,pinsir
+245 Secret Shore|mankey,primeape,farfetchd,pidgeotto,kricketot,kricketune,pidgeot
+254 Route 9|liepard,pangoro,sudowoodo,mothim,lycanroc,talonflame,mantyke,dewgong,sealeo,mantine,pincurchin,spheal,quagsire,qwilfish,gastrodon,whiscash,clawitzer,dragalge,walrein
+257 Scholar District|voltorb,mrmime,leavanny,electrode,lillipup,greedent,unfezant,magnemite,magneton,stoutland,yamper,gogoat,boltund,koffing,thievul,weezing,nickit,hoothoot,noctowl,musharna
+268 Deep Terajuma Jungle|carvanha,golduck,wishiwashi,sharpedo,dhelmise,grubbin,weepinbell,trumbeak,charjabug,bibarel,beedrill,foongus,exeggcute,amoonguss,butterfree,morelull,hoothoot,spinarak,gloom,venonat,kricketune,shiinotic,ariados,noctowl
+269 Evergreen Cave [North]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,psyduck,goldeen,rocksmash,geodude,dwebble,shuckle,barboach,corphish,crawdaunt,whiscash
+278 Terajuma Coral Reef|chinchou,clamperl,arrokuda,lanturn,wailmer,wailord,dhelmise,clawitzer,dragalge
+293 Unown Dimension|hoothoot,unown,pidgey,noctowl,pidgeotto
+295 Deep Terajuma Jungle|carvanha,golduck,wishiwashi,sharpedo,dhelmise,grubbin,weepinbell,trumbeak,charjabug,bibarel,beedrill,foongus,exeggcute,amoonguss,butterfree,morelull,hoothoot,spinarak,gloom,venonat,kricketune,shiinotic,ariados,noctowl
+298 Kakori Village|carvanha,basculin,sharpedo
+299 Route 5|spinda,machop,machoke,bibarel,numel,clobbopus,slugma,noctowl,baltoy,ariados,chimecho
+300 Valor Shore|spinda,machop,machoke,sandygast,numel,clobbopus,remoraid,krabby,rocksmash,geodude,binacle,gastrodon,octillery,alomomola,grapploct,luvdisc,slugma,noctowl,baltoy,ariados,chimecho
+301 Route 6|krabby,dustox,beautifly,exeggcute,pyukumuku,mantyke,wailmer,carvanha,rocksmash,chewtle,binacle,wishiwashi,sharpedo,wailord,dhelmise
+302 Aquamarine Cave|psyduck,spheal,golduck,sealeo,kingler,corsola,seel,dewgong,goldeen,carvanha,basculin,seaking,arrokuda,walrein,sharpedo
+309 Aquamarine Cave|psyduck,spheal,golduck,sealeo,kingler,corsola,seel,dewgong,goldeen,carvanha,basculin,seaking,arrokuda,walrein,sharpedo
+317 Judicial District|spearow,growlithe,sunkern,sunflora,fearow,rattata,raticate,hoothoot,noctowl,ariados,dustox
+319 Carotos Mountain|slugma,numel,onix,rolycoly,nosepass,goodrod
+321 Goldenwood Forest|poochyena,mightyena,pidove,plusle,minun,pansage,tranquill,spewpa,furret,psyduck,golduck,goldeen,seaking
+322 Route 5|ribombee,steenee,onix,camerupt,steelix,sandslash,sandshrew,nosepass
+323 Aquamarine Depths|psyduck,spheal,golduck,sealeo,kingler,corsola,seel,dewgong,goldeen,carvanha,basculin,seaking,walrein,sharpedo
+324 Aquamarine Chamber|spheal,seel,dewgong,sealeo,goldeen,carvanha,basculin,seaking,walrein,sharpedo
+325 Secluded Shore|psyduck,spheal,golduck,sealeo,kingler,corsola,seel,dewgong,goldeen,carvanha,basculin,seaking,walrein,sharpedo
+326 Aquamarine Shrine|psyduck,spheal,golduck,sealeo,kingler,corsola,seel,dewgong,goldeen,carvanha,basculin,seaking,walrein,sharpedo
+329 Kristiline Town|roselia,swadloon,butterfree,lickitung,lurantis
+330 Hiyoshi City|ribombee,steenee,cutiefly,delcatty,sandslash,sandshrew,castform
+340 Tower of Theolia F2|bergmite,spheal,delibird,swinub
+341 Tower of Theolia F3|bergmite,spheal,delibird,swinub
+350 Route 7|skiploom,taillow,skiddo,ponyta,rapidash,swellow,jumpluff,audino,gogoat,wooloo,dubwool,tauros,mudbray,bouffalant,mudsdale,ledian,stantler,houndour,noctowl,ariados
+351 Route 7|skiploom,taillow,skiddo,ponyta,rapidash,swellow,jumpluff,audino,gogoat,wooloo,dubwool,tauros,mudbray,bouffalant,mudsdale,ledian,stantler,houndour,noctowl,ariados
+352 Route 7|skiploom,taillow,skiddo,ponyta,rapidash,swellow,jumpluff,audino,gogoat,wooloo,dubwool,tauros,mudbray,bouffalant,mudsdale,ledian,stantler,houndour,noctowl,ariados
+354 Route 7 | Yui's Ranch
+355 Route 7 | GDC Gate
+356 Honec Woods|carnivine,combee,karrablast,shelmet,stunfisk,charjabug,venonat,venomoth,blipbug,vespiquen,tympole,wooper,palpitoad,quagsire,seismitoad,skrelp,dragalge,octillery,crawdaunt
+357 Darchlight Woods|finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt,morelull,ponyta,foongus,skuntank,vullaby,shiinotic,hatenna,shiftry,murkrow,amoonguss
+358 Darchlight Woods|finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt,morelull,ponyta,foongus,skuntank,vullaby,shiinotic,hatenna,shiftry,murkrow,amoonguss
+359 Darchlight Woods|finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt,morelull,ponyta,foongus,skuntank,vullaby,shiinotic,hatenna,shiftry,murkrow,amoonguss
+360 Darchlight Woods|finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt,morelull,ponyta,foongus,skuntank,vullaby,shiinotic,hatenna,shiftry,murkrow,amoonguss
+361 Route 8|wooper,quagsire,marill,goldeen,remoraid,crawdaunt,octillery,skiploom,taillow,skiddo,ponyta,rapidash,swellow,jumpluff,audino,gogoat,wooloo,dubwool,tauros,mudbray,bouffalant,mudsdale,ledian,stantler,houndour,noctowl,ariados
+363 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+368 Darchlight Woods|finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt,morelull,ponyta,foongus,skuntank,vullaby,shiinotic,hatenna,shiftry,murkrow,amoonguss
+369 Honec Woods|carnivine,combee,karrablast,shelmet,stunfisk,charjabug,venonat,venomoth,blipbug,tympole,wooper,palpitoad,quagsire,seismitoad,goldeen,remoraid,crawdaunt,octillery
+370 Honec Woods|carnivine,combee,karrablast,shelmet,stunfisk,charjabug,venonat,venomoth,blipbug,vespiquen,tympole,wooper,palpitoad,quagsire,seismitoad,goldeen,remoraid,crawdaunt,octillery
+371 Azure Shore|wooper,slowpoke,quagsire,lanturn,marill,goldeen,chinchou,remoraid,slowbro,crawdaunt,octillery
+373 Zorrialyn Desert|dugtrio,maractus,marowak,helioptile,heliolisk,cacturne,budew,nidoqueen
+374 Hiyoshi Pass|skiddo,tauros,zebstrika,stantler,gogoat,bouffalant,wooper,quagsire,marill,goldeen,remoraid,crawdaunt,octillery
+390 Chrysalis Courtyard|meowth,hoppip,skiploom,plusle,minun,girafarig,porygon,meowth,ariados,herdier,pidgeotto,persian,basculin,finneon,wooper,quagsire,lumineon
+395 3rd Layer|anorith,archen,tirtouga,relicanth,lileep,cradily
+401 Backstage Theatre|rattata,shuppet,raticate,banette,duskull,yamask
+403 Forsaken Laboratory|diglett,dunsparce,geodude,graveler,dugtrio
+405 Pom-Pom Meadow|yungoos,oricorio,cutiefly,dustox,butterfree
+406 Hula Meadow|oricorio,trumbeak,charjabug,toucannon,grubbin,oranguru
+408 Sensu Meadow|oricorio,meditite,finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt
+415 WG Sewage Managemnt|salandit,trubbish,grimer,oddish,koffing,toxel
+418 Hidden Library|unown
+419 Forlorned Cavern|graveler,pangoro,sudowoodo,togedemaru,swoobat,lycanroc,rhydon,rhyhorn,mantyke,dewgong,sealeo,mantine,bruxish,corphish,chewtle,quagsire,qwilfish,gastrodon,whiscash,clawitzer,drednaw,crawdaunt
+423 Sheridan Village|zigzagoon,makuhita,spearow,kricketot,kricketune,ledyba,lumineon,rocksmash,geodude,diglett,goldeen,finneon,politoed,poliwrath,chingling,hoothoot,dustox
+424 Sheridan Arena|zigzagoon,makuhita,fletchinder,kricketot,kricketune,ledyba,lumineon,rocksmash,geodude,goldeen,finneon,seaking,chingling,hoothoot,dustox
+432 River's End|shelmet,steenee,ribombee,sunflora,comfey,stunfisk,golduck,lumineon,rocksmash,shuckle,dwebble,finneon,bruxish,corphish,crawdaunt
+435 Blacksteeple Castle|tangela,teddiursa,cramorant,abomasnow,ursaring,delibird
+436 Blacksteeple Quarry|tangela,teddiursa,cramorant,abomasnow,ursaring,delibird
+437 Blacksteeple Garden|tangela,teddiursa,cramorant,abomasnow,ursaring,delibird
+461 Blacksteeple Playroom|amoonguss,graveler,muk,drapion,whirlipede,mawile,tentacruel,duosion,thievul,boltund,jynx,sableye
+470 Evergreen Forest|snover,cubchoo,vanillite,farfetchd,furfrou,seel,spheal,buizel,sealeo,dewgong,goldeen,seaking,floatzel,alomomola,octillery,walrein,headbuttlow,pineco,crabrawler,taillow,swellow,crabominable,snom,slakoth,headbutthigh
+473 Route 11|mantyke,tentacool,wailmer,rocksmash,geodude,binacle,seel,spheal,dewgong,luvdisc,sealeo,alomomola,walrein
+474 Route 2|taillow,lickitung,swellow,lurantis,tsareena,heracross,chansey,bruxish,alomomola,rocksmash,crustle,graveler,shuckle,luvdisc,poliwrath,seaking,headbuttlow,aipom,ambipom,forretress,pineco,combee,burmy,vespiquen,headbutthigh
+478 Zorrialyn Desert|dugtrio,maractus,marowak,helioptile,heliolisk,cacturne,budew,nidoqueen
+479 Seabound Cave|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,remoraid,crawdaunt,octillery
+480 Seabound Cave|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+481 Evergreen Cave [South]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+482 Evergreen Cave [South]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+483 Evergreen Cave [South]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+485 Evergreen Cave [North]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+486 Evergreen Cave [North]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,spheal,sealeo,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,goldeen,seaking,octillery,floatzel,cloyster,walrein
+488 Amethyst Grotto|dunsparce,meowth,jigglypuff,girafarig
+489 Wispy Ruins|golett,baltoy,yamask,graveler,natu,xatu
+490 Evergreen Cave [North]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,rocksmash,binacle,dunsparce,shuckle
+491 Evergreen Cave [North]|smoochum,sandshrew,vanillite,vanillish,bergmite,jynx,avalugg,seel,dewgong,kingler,rocksmash,binacle,dunsparce,shuckle,feebas
+494 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+495 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+496 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+497 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut,corphish,quagsire,crawdaunt,basculin
+498 Darchlight Caves|bronzor,graveler,sandslash,dugtrio,bronzong,carbink
+501 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+502 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut,finneon,quagsire,lumineon,marill,basculin,chinchou,lanturn,crawdaunt
+503 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+504 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+505 Darchlight Caves|bronzor,graveler,carbink,sandslash,wobbuffet,dugtrio,bronzong,wynaut
+508 Wispy Chasm|golett,baltoy,yamask,graveler,claydol,xatu,frillish,barboach,whiscash,corphish,crawdaunt,jellicent,octillery
+510 Zorrialyn Desert|gastrodon,whiscash,quagsire,shellos,wooper,slowpoke,slowbro,dugtrio,maractus,marowak,helioptile,heliolisk,cacturne,budew,nidoking,nidoqueen
+511 Sand Stream Cave|hippopotas,silicobra,diggersby,sandile,sandaconda,krokorok
+512 Sand Stream Cave|hippopotas,silicobra,diggersby,sandile,sandaconda,krokorok
+513 Sand Stream Cave|hippopotas,silicobra,diggersby,sandile,sandaconda,krokorok
+514 Sand Stream Depths|hippopotas,silicobra,diggersby,hippowdon,sandaconda
+515 Zorrialyn Coast|gligar,maractus,mudsdale,cacturne,budew,helioptile,heliolisk
+518 Alamissa Urben|golurk,claydol,dusclops,cufant,sigilyph,copperajah
+519 Voidal Chasm B3|golurk,claydol,boldore,golett,skuntank,sableye,mawile
+520 Voidal Chasm B2|golurk,claydol,boldore,golett,skuntank,sableye,carbink
+521 Voidal Chasm B2|golurk,claydol,boldore,golett,skuntank,sableye,mawile
+522 Voidal Chasm B1|golurk,claydol,boldore,golett,skuntank,sableye,mawile
+523 Ruined City|gligar,maractus,mudsdale,cacturne,helioptile,heliolisk
+525 Zorrialyn Desert|muk,maractus,marowak,arbok,cacturne,budew,ariados,landnight
+540 Isle of Angels|roselia,swadloon,gossifleur,eldegoss,milcery,lurantis,gothita,bruxish,seaking,swanna,sealeo,dewgong,corphish,carvanha,luvdisc,basculin,wailmer,wailord
+547 Jeminra Cave|geodude,grimer,graveler,muk,salandit,weezing,swalot,salazzle
+561 Jeminra Woods|spinda,koffing,weezing,magcargo,numel,gloom,kangaskhan
+562 Jeminra Woods|phanpy,natu,roselia,doduo,gloom,psyduck,golduck,wobbuffet
+563 Jeminra Cave|graveler,grimer,muk,salandit,weezing,swalot,salazzle
+564 Jeminra Woods|girafarig,vileplume,weepinbell,hypno,parasect,cufant
+565 Jeminra Woods|duskull,pachirisu,lickitung,bibarel,tropius,parasect,kangaskhan,chansey,bruxish,whiscash,golduck,sharpedo,lotad,rocksmash,dwebble,shuckle,binacle,carvanha,barboach,luvdisc,alomomola,ludicolo
+566 Jeminra Woods|kecleon,koffing,spinda,weezing,nosepass,magcargo,numel,zangoose,kangaskhan,bruxish,whiscash,golduck,sharpedo,lotad,rocksmash,dwebble,shuckle,binacle,carvanha,barboach,luvdisc,alomomola,ludicolo
+567 Jeminra Woods|duskull,pachirisu,lickitung,bibarel,tropius,parasect,kangaskhan,chansey,bruxish,whiscash,golduck,sharpedo,lotad,rocksmash,dwebble,shuckle,binacle,carvanha,barboach,luvdisc,alomomola,ludicolo
+569 Jeminra Woods|geodude,voltorb,graveler,magnemite,pikachu,electrode,magneton,bruxish,whiscash,golduck,sharpedo,lotad,rocksmash,dwebble,shuckle,binacle,carvanha,barboach,luvdisc,alomomola,ludicolo
+571 Gearen Park|budew,spearow,pansear,panpour,whismur,skitty,bellsprout
+573 Zone Zero|helioptile,maractus,tauros,vullaby,heliolisk,skorupi,drapion,mandibuzz
+576 Zone Zero|helioptile,maractus,tauros,vullaby,heliolisk,skorupi,drapion,mandibuzz
+578 Zone Zero|helioptile,maractus,tauros,vullaby,heliolisk,skorupi,drapion,mandibuzz
+594 Evergreen Trench|clamperl,relicanth,sealeo,lumineon,clawitzer,alomomola,walrein,rocksmash,binacle,barbaracle
+595 Evergreen Trench|clamperl,relicanth,sealeo,lumineon,clawitzer,alomomola,walrein,rocksmash,binacle,barbaracle
+596 Evergreen Trench|clamperl,relicanth,sealeo,lumineon,clawitzer,alomomola,walrein,rocksmash,binacle,barbaracle
+597 Evergreen Trench|clamperl,relicanth,sealeo,lumineon,clawitzer,alomomola,walrein,rocksmash,binacle,barbaracle
+599 Swamp Pit|stunfisk,gastrodon,clamperl,octillery,clawitzer,dragalge
+600 Kingdom of Goomidra|goomy
+602 Castle of Goomidra|pawniard,solosis,falinks,duosion,bisharp,malamar

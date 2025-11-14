@@ -252,7 +252,7 @@ jynx|72|blizzard,lovely-kiss,aura-sphere,psyshock|trace|ice-gem
 
 --o9_sun|Sun Trainer Elmer||/leaders/blazevolt-elmer
 torkoal|72|stealth-rock,yawn,solar-beam,lava-plume|drought|red-card
-darmanitan-standard|72|flare-blitz,lunge,earthquake,rock-slide|sheer-force|fire-gem
+darmanitan|72|flare-blitz,lunge,earthquake,rock-slide|sheer-force|fire-gem
 venusaur|72|giga-drain,growth,weather-ball,earth-power|chlorophyll|life-orb
 ninetales|72|moonblast,solar-beam,flamethrower,power-gem|drought|eject-button
 volcarona|72|quiver-dance,fiery-dance,bug-buzz,giga-drain|flame-body|focus-sash

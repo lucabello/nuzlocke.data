@@ -9,9 +9,9 @@ const fs = require('fs');
 const path = require('path');
 
 const parentDir = __dirname + "\\..";
-
 const dir = `${parentDir}\\nuzlocke.data`;
 const patchesDir = path.join(dir, 'patches');
+const outputDir = path.join(parentDir, 'nuzlocke.app', 'src', 'lib', 'data');
 const patchFiles = fs.readdirSync(patchesDir).filter(f => f.endsWith('.txt') || f.endsWith('.league'));
 
 const patchOutput = {};
@@ -51,7 +51,7 @@ for (const file of patchFiles) {
                     const [name, sprite, description] = parts;
                     const formattedName = name[0].toLocaleUpperCase() + name.slice(1).replaceAll('-', ' ');
 
-                    result.item[name] = {
+                    result.item[name.toLowerCase().replace(/-/g, '')] = {
                         name: formattedName,
                         sprite: sprite?.trim(),
                         effect: description?.trim()
@@ -98,8 +98,8 @@ for (const file of patchFiles) {
                         } else {
                             result.pokemon[name?.trim()] = {
                                 ...(result.pokemon[name?.trim()]),
-                                ...(types ? { types: types.split(',')} : {}),
                                 name: name?.trim(),
+                                ...(types ? { types: types.split(',')} : {}),
                             }   
                         }
                     } else {

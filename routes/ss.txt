@@ -74,7 +74,7 @@ Route 26|rattata,ekans,zubat,bellsprout,tentacool,tentacruel,exeggcute,magikarp,
 --Ecruteak City Dance Hall|kimono|mini-boss|Kimono Girls
 Victory Road|golbat,geodude,graveler,onix,rhyhorn,ursaring,donphan
 --Victory Road|r5|rival|Silver
-Indigo Plateau|
+Indigo Plateau
 --Elite Four|e1|elite-four|Will
 --Elite Four|e2|elite-four|Koga
 --Elite Four|e3|elite-four|Bruno

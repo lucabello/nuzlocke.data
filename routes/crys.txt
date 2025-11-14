@@ -65,7 +65,7 @@ Tohjo Falls|rattata,raticate,zubat,golbat,slowpoke,goldeen,seaking
 Route 26|pidgey,rattata,ekans,zubat,bellsprout,tentacool,tentacruel,gastly,exeggcute,magikarp,hoothoot,hoppip,wooper,quagsire,pineco,qwilfish
 Victory Road|sandslash,golbat,graveler,onix,rhyhorn,rhydon,ursaring,donphan
 --Victory Road|r5|rival|Silver
-Indigo Plateau|
+Indigo Plateau
 --Elite Four|e1|elite-four|Will
 --Elite Four|e2|elite-four|Koga
 --Elite Four|e3|elite-four|Bruno

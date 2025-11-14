@@ -37,7 +37,7 @@ Route 215|abra,kadabra,drowzee,lickitung,scyther,marill,aipom,heracross,wurmple,
 Veilstone City|porygon
 --Veilstone Gym|4|gym-leader|Maylene
 Route 214|vulpix,zubat,psyduck,golduck,geodude,graveler,rhyhorn,goldeen,seaking,magikarp,gyarados,aipom,heracross,houndour,poochyena,wurmple,spoink,burmy,combee,cherubi,munchlax
-Ruin Maniac's Cave|
+Ruin Maniac's Cave
 Ruin Maniac's Tunnel|geodude,hippopotas
 Valor Lakefront|nidorina,nidorino,girafarig,houndour,staravia,bibarel,kricketune
 Pastoria City|tentacool,tentacruel,magikarp,gyarados,remoraid,octillery,shellos,gastrodon

@@ -4,6 +4,8 @@ const LegacyDamageClassMap = {
   "fire": "special", "water": "special", "grass": "special", "electric": "special", "psychic": "special", "ice": "special", "dragon": "special", "dark": "special",
 }
 
+const StatKeys = ["hp", "atk", "def", "spa", "spd", "spe"];
+
 const parentDir = __dirname + "\\..";
 
 const fs = require('fs');
@@ -23,7 +25,6 @@ const games = Object.values(rawGames.games || rawGames);
 
 const leaguesDir = path.join(dataDir, 'leagues');
 const outputPath = path.join(dataDir, 'league.json');
-const tempPath = path.join(dataDir, 'tempLeague.json');
 
 const parseLeaderHeader = (line) => {
   const [index, name, specialty = '', imageInfo = ''] = line.split('|'); // Default specialty to empty string
@@ -64,7 +65,8 @@ const parsePokemonLine = (line) => {
   let hasEVs = line.includes('@');
   let [namePart, levelPart, moves, ability = '', held, starter, tera] = line.split('|');
 
-  let [name, sprite] = namePart.split('>');
+  let [name, icon] = namePart.split('>');
+  
   let level = levelPart.includes('@') ? levelPart.split('@')[0] : levelPart;
   let evs = levelPart.includes('@') ? levelPart.split('@')[1].split(',') : undefined;
 
@@ -75,7 +77,7 @@ const parsePokemonLine = (line) => {
     ...(ability ? { ability: ability.split('/')[0].trim() } : {}),
     ...(tera ? { tera: tera.trim() } : {}),
     ...(held ? { held: held.trim() } : {}),
-    ...(sprite ? { sprite: sprite.trim() } : {}),
+    ...(icon ? { icon: icon.trim() } : {}),
     ...(starter ? { starter: starter.trim() } : {}),
     ...(hasEVs ? { evs: evs.map(e => parseInt(e.trim(), 10)) } : {})
   };
@@ -214,7 +216,7 @@ const getAbilityData = (league, slug) => {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
 
-    return { name: cleanName };
+    return { name: combined.name || cleanName };
   }
 
   return {
@@ -224,8 +226,15 @@ const getAbilityData = (league, slug) => {
 };
 
 const enrichMove = (league, slug, prePhysicalSpecialSplit) => {
-  const globalMove = rawMovesData.find(m => m.slug === slug);
+  let globalMove = rawMovesData.find(m => m.slug === slug);
   const leaguePatch = patches[league]?.move?.[slug] || {};
+
+  if (!globalMove && leaguePatch) {
+    // Split by hyphen, capitalize each word
+    slug = slug.replace('-', ' ').replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }
 
   // Combine data sources: patch overrides global
   const move = {
@@ -245,15 +254,19 @@ const enrichMove = (league, slug, prePhysicalSpecialSplit) => {
   }
 
   let damage_class = move.category?.toLowerCase() ?? "unknown";
-  if (move.category?.toLowerCase() != "status" && prePhysicalSpecialSplit) {
-    damage_class = LegacyDamageClassMap[move.type.toLowerCase()] || "unknown";
+  if ((!move.category || move.category?.toLowerCase() != "status") && prePhysicalSpecialSplit) {
+    if (move.type) {
+      damage_class = LegacyDamageClassMap[move.type.toLowerCase()] || "unknown";
+    } else {
+      console.error(`No move type found for ${slug} in ${league}`);
+    }
   }
 
   return {
-    ...((move.basePower && move.basePower > 0) ? { power: move.basePower } : {}),
+    ...((move?.power && move.power > 0) ? { power: move.power } : (move?.basePower && move.basePower > 0 ? { power: move.basePower } : {})),
     type: move.type?.toLowerCase() || "unknown",
     damage_class: damage_class,
-    name: move.name || slug,
+    name: move?.name || move?.locale || slug,
     effect: move.shortDesc || move.desc || "",
     ...(move.priority != 0 ? { priority: move.priority } : {})
   };
@@ -274,20 +287,31 @@ for (const leagueKey in finalOutput) {
     leader.pokemon = leader.pokemon.map(p => {
       const enrichedMoves = p.moves.map(m => enrichMove(patchId, m, prePhysicalSpecialSplit));
 
-      const ability = getAbilityData(patchId, p?.ability?.toLowerCase());
+      // TODO - The "/" separates mega evolution abilities for Pokemon Unbound. Do something with that.
+      const ability = getAbilityData(patchId, p?.ability?.split("/")[0]?.toLowerCase());
       const item = getItemData(patchId, p?.held?.toLowerCase().replace(/-/g, ''));
       const pokeData = getPokemonData(patchId, p.name);
 
+      var stats = {};
+      if (pokeData.stats)
+      {
+        stats = pokeData.stats;
+      }
+
+      if (pokeData.baseStats) {
+        stats = {...pokeData.baseStats, ...stats};
+      }
+      
       return {
         ...p,
         moves: enrichedMoves,
         ...(ability ? { ability: ability } : {}),
         ...(item ? { held: item } : {}),
-        ...(pokeData.name ? { name: pokeData.name.replace(/\W+/gu, '-').toLowerCase()} : { name: p.name.toLowerCase() }),
+        ...(pokeData.displayName ? { name: pokeData.displayName.replace(/\W+/gu, '-').toLowerCase()} : { name: p.name.toLowerCase() }),
         ...(pokeData.imgId ? { sprite: `${pokeData.imgId}` } : {}),
+        ...(pokeData.imgUrl ? { imgUrl: pokeData.imgUrl } : {}),
         ...(pokeData.types ? { types: pokeData.types.map(x => x.toLowerCase()) } : {}),
-        ...(pokeData.stats ? { stats: pokeData.stats } :
-          pokeData.baseStats ? { stats: pokeData.baseStats } : {})
+        ...(stats ? { stats: stats } : {})
       };
     });
   }
@@ -297,7 +321,7 @@ for (const leagueKey in finalOutput) {
 fs.writeFileSync(outputPath, JSON.stringify(finalOutput, null, 2));
 console.log(`Enriched league data written to ${outputPath}`);
 
-const finalDir = path.join(dataDir, 'final');
+const finalDir = '..\\nuzlocke.app\\static\\api\\league';
 if (!fs.existsSync(finalDir)) fs.mkdirSync(finalDir);
 
 function getDifficulties(diffArray) {
@@ -309,13 +333,28 @@ function getDifficulties(diffArray) {
   });
 }
 
-function isMatchKey(key, suffix, allSuffixes) {
-  if (!suffix) {
-    // Must not end in any known suffix
-    return !allSuffixes.some(s => s && key.endsWith(s));
-  } else {
-    return key.endsWith(suffix);
+function isMatchKey2(key, suffix, allSuffixes) {
+  if (key.endsWith(suffix)) {
+    // Key matches on suffix. Ensure it only matches this one
+    var notMatching = allSuffixes.filter(x => x != suffix && x != '');
+    return !notMatching.some(x => key.endsWith(x));
   }
+
+  // Key doesn't match suffix. Get non-empty ones
+  var nonEmpty = allSuffixes.filter(x => x);
+  if (nonEmpty.some(x => key.endsWith(x))) {
+    // At least one non-empty suffix matches here
+    return false;
+  }
+
+  // None of the non-empty values match the suffix
+  if (allSuffixes.some(x => x == '')) {
+    // If any of the difficulties is the empty string, fail
+    return false;
+  }
+
+  // No empty entries, passthrough
+  return true;
 }
 
 function filterPokemonByStarter(pokemon, starter) {
@@ -341,27 +380,20 @@ for (const leagueKey of Object.keys(finalOutput)) {
 
   for (const game of matchingGames) {
     const difficulties = getDifficulties(game.difficulty);
-    const allSuffixes = difficulties.map(d => d.suffix).filter(Boolean);
+    const allSuffixes = difficulties.map(d => d.suffix);
 
     for (const { title, suffix } of difficulties) {
       const matchedKeys = Object.keys(league).filter(key =>
-        isMatchKey(key, suffix, allSuffixes)
+        isMatchKey2(key, suffix, allSuffixes)
       );
 
-      let starters = [];
-      for (const key of matchedKeys) {
-        for (const p of league[key].pokemon) {
-          if (p.starter?.trim()) starters.push(p.starter.trim());
-        }
-      }
-
-      // Always include empty starter as default
-      starters.push('');
+      let starters = ['water', 'fire', 'grass'];
 
       for (const starter of starters) {
         const outputSubset = {};
 
         for (const key of matchedKeys) {
+          if (game.ignoredBossPrefixes?.some(x => key.startsWith(x))) continue;
           const boss = league[key];
           const filteredPokemon = filterPokemonByStarter(boss.pokemon, starter);
           if (filteredPokemon.length > 0) {

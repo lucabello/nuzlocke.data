@@ -10037,7 +10037,7 @@
           "held": "red-card"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "72",
           "moves": [
             "flare-blitz",
@@ -38293,7 +38293,7 @@
           "held": "passho-berry"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "+0",
           "moves": [
             "flare-blitz",
@@ -38573,7 +38573,7 @@
           "held": "rocky-helmet"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "+1",
           "moves": [
             "flare-blitz",
@@ -38811,7 +38811,7 @@
           "held": "passho-berry"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "+0",
           "moves": [
             "flare-blitz",
@@ -50097,7 +50097,7 @@
           "starter": "fire"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "55",
           "moves": [
             "u-turn",
@@ -50149,7 +50149,7 @@
           "starter": "water"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "55",
           "moves": [
             "earthquake",
@@ -50297,7 +50297,7 @@
           "starter": "grass"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "81",
           "moves": [
             "rock-slide",
@@ -50310,7 +50310,7 @@
           "starter": "fire"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "81",
           "moves": [
             "u-turn",
@@ -53163,7 +53163,7 @@
           "sprite": "groudon-primal"
         },
         {
-          "name": "darmanitan-galar-standard",
+          "name": "darmanitan-galar",
           "level": "76",
           "moves": [
             "mountain-gale",
@@ -56018,7 +56018,7 @@
           "starter": "grass"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "+0",
           "moves": [
             "flare-blitz",
@@ -56031,7 +56031,7 @@
           "starter": "fire"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "+0",
           "moves": [
             "flare-blitz",
@@ -63616,7 +63616,7 @@
           "held": "wise-glasses"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "35",
           "moves": [
             "flare-blitz",
@@ -63722,7 +63722,7 @@
           "held": "sitrus-berry"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "35",
           "moves": [
             "flare-blitz",
@@ -64100,7 +64100,7 @@
           "held": "focus-sash"
         },
         {
-          "name": "darmanitan-standard",
+          "name": "darmanitan",
           "level": "48",
           "moves": [
             "flare-blitz",
@@ -76106,7 +76106,7 @@
           "ability": "shield-dust"
         },
         {
-          "name": "darmanitan-galar-standard",
+          "name": "darmanitan-galar",
           "level": "40",
           "moves": [
             "icicle-crash",
@@ -85388,7 +85388,7 @@
             "night-slash"
           ],
           "ability": "prism-armor",
-          "sprite": "necrozma-dusk-make"
+          "sprite": "necrozma-dusk-mane"
         },
         {
           "name": "necrozma-ultra",
