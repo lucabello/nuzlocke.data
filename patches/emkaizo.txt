@@ -47,7 +47,9 @@ bullet-seed||25|Hits the opponent 2 times
 leaf-blade||90
 water-spout||150|Deals ⅓ damage as recoil to the user
 psycho-boost||140|Deals ¼ damage as recoil to the user
-
+charm|normal||||
+sweet-kiss|normal||||
+curse|???||||
 hp-bug|bug|60||special|Hidden Power
 hp-electric|electric|60||special|Hidden Power
 hp-fighting|fighting|60||special|Hidden Power
@@ -60,3 +62,27 @@ hp-ice|ice|60||special|Hidden Power
 hp-psychic|psychic|60||special|Hidden Power
 hp-rock|rock|60||special|Hidden Power
 hp-water|water|60||special|Hidden Power
+
+--pokemon
+|azumarill|water
+|azurill|water
+|clefable|normal
+|clefairy|normal
+|cleffa|normal
+|cottonee|grass
+|gardevoir|psychic
+|granbull|normal
+|igglybuff|normal
+|jigglypuff|normal
+|kirlia|psychic
+|marill|water
+|mawile|steel
+|mime-jr|psychic
+|mr-mime|psychic
+|ralts|psychic
+|snubbull|normal
+|togekiss|normal,flying
+|togepi|normal
+|togetic|normal,flying
+|whimsicott|grass
+|wigglytuff|normal

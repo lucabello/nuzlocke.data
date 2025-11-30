@@ -55,8 +55,8 @@ Cinnabar Island|omanyte,kabuto,aerodactyl
 Pokémon Mansion|rattata,raticate,vulpix,grimer,muk,koffing,ditto
 --Cinnabar Island Gym|7|gym-leader|Blaine
 One Island|tentacool,tentacruel,slowpoke,krabby,kingler,staryu,magikarp,gyarados
-Two Island|
-Three Island|
+Two Island
+Three Island
 Route 21|tentacool,slowpoke,krabby,tangela,horsea,magikarp,gyarados
 --Viridian City Gym|8|gym-leader|Giovanni
 Route 23|spearow,fearow,sandshrew,sandslash,mankey,primeape,poliwag,poliwhirl,slowpoke,goldeen,magikarp,gyarados
@@ -68,7 +68,7 @@ Victory Road|sandslash,zubat,golbat,machop,machoke,geodude,onix,marowak
 --Indigo Plateau|e4|elite-four|Lance
 --Champion|c|elite-four|Blue
 Four Island|poliwag,poliwhirl,slowpoke,goldeen,magikarp,gyarados,marill
-Five Island|
-Six Island|
-Seven Island|
+Five Island
+Six Island
+Seven Island
 Cerulean Cave|golbat,parasect,poliwag,poliwhirl,kadabra,machoke,geodude,graveler,slowpoke,slowbro,magneton,electrode,goldeen,magikarp,gyarados,ditto,mewtwo,wobbuffet

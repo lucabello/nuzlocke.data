@@ -205,7 +205,7 @@ fraxure|41|dragon-tail,dragon-dance,assurance,dragon-rage|rivalry||
 druddigon|41|night-slash,revenge,dragon-tail,chip-away|rough-skin||
 haxorus|43|dragon-tail,dragon-dance,slash,assurance|mold-breaker||
 
---8b|Iris|dragon|/leaders/blwh-iris#Black
+--8b|Iris|dragon|/leaders/blwh-iris#White
 fraxure|41|dragon-tail,dragon-dance,assurance,dragon-rage|rivalry||
 druddigon|41|night-slash,revenge,dragon-tail,chip-away|rough-skin||
 haxorus|43|dragon-tail,dragon-dance,slash,assurance|mold-breaker||

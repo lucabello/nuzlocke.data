@@ -85,9 +85,7 @@ Victory Road|golbat,machoke,rhyhorn,zubat,lairon,aron,lucario,mawile,graveler,ge
 --Pokémon League|e3|elite-four|Bede
 --Pokémon League|e4|elite-four|Drake
 --Pokémon League Champion|ch|elite-four|Wallace
-
 Rocklight Cave|golbat,sableye,mawile,snorlax
 Rocky Hollow|diglett,totodile,zubat,dugtrio,whismur,chikorita,cyndaquil
 Mirage Island|blissey
-
 --Meteor Falls Champion|ch2|rival|Steven

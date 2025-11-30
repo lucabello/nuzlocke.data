@@ -134,7 +134,7 @@ kadabra|53|psybeam,swift|synchronize
 ponyta-galar>ponyta-galar|65|psybeam,fairy-wind|run-away
 swoobat|66|confusion,air-cutter|unaware
 kadabra|66|psybeam,swift|synchronize
-slowbro-galar>slowbrow-galar|67|water-pulse,shell-side-arm,confusion|quick-draw
+slowbro-galar>slowbro-galar|67|water-pulse,shell-side-arm,confusion|quick-draw
 
 --p|Peony|steel|/leaders/swsh-peony@Brumirage@https://www.instagram.com/brumirage
 copperajah|70|high-horsepower,heavy-slam,play-rough,superpower|sheer-force
@@ -200,7 +200,7 @@ coalossal|42|tar-shot,stealth-rock,heat-crash,rock-tomb|steam-engine||
 
 --6b|Melony|ice|/leaders/swsh-melony@Brumirage@https://www.instagram.com/brumirage
 frosmoth|40|icy-wind,feather-dance,bug-buzz,hail|shield-dust||
-darmanitan-galar-standard>darmanitan-galar|40|icicle-crash,headbutt,taunt,fire-fang|zen-mode||
+darmanitan-galar>darmanitan-galar|40|icicle-crash,headbutt,taunt,fire-fang|zen-mode||
 eiscue-ice>eiscue|41|amnesia,freeze-dry,hail,icy-wind|ice-face||
 lapras|42|icy-wind,ice-beam,surf,sing|shell-armor||
 

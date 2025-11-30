@@ -269,7 +269,7 @@ krokorok|43|crunch,assurance,swagger,earthquake|intimidate||
 persian-alola>persian-alola|44|power-gem,fake-out,dark-pulse|fur-coat|darkinium-z|
 
 --10a|Necrozma|psychic|/leaders/sm-necrozma
-necrozma-dusk>necrozma-dusk-make|50|sunsteel-strike,morning-sun,psycho-cut,night-slash|prism-armor
+necrozma-dusk>necrozma-dusk-mane|50|sunsteel-strike,morning-sun,psycho-cut,night-slash|prism-armor
 necrozma-ultra>necrozma-ultra|60|photon-geyser,smart-strike,power-gem,dragon-pulse|neuroforce
 
 --10b|Necrozma|psychic|/leaders/sm-necrozma

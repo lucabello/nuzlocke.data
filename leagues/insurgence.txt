@@ -865,7 +865,7 @@ flygon|51|boomburst,drakon-voice,flamethrower,bug-buzz|levitate|flygonite|||
 aegislash-blade>aegislash-blade|89|swords-dance,aerial-ace,kings-shield,sacred-sword|stance-change||||
 florges|89|misty-terrain,moonblast,petal-dance,aromatherapy|flower-veil||||
 delta-girafarig|89|crunch,toxic-spikes,nasty-plot,sludge-bomb|anger-point||||
-darmanitan-standard|89|hammer-arm,taunt,superpower,overheat|sheer-force||||
+darmanitan|89|hammer-arm,taunt,superpower,overheat|sheer-force||||
 celebi|90|heal-block,future-sight,healing-wish,leaf-storm|natural-cure||||
 flygon|90|draco-meteor,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 
@@ -873,7 +873,7 @@ flygon|90|draco-meteor,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 aegislash-blade>aegislash-blade|90|swords-dance,aerial-ace,kings-shield,sacred-sword|stance-change||||
 florges|90|misty-terrain,moonblast,petal-dance,aromatherapy|flower-veil||||
 delta-girafarig|91|crunch,toxic-spikes,nasty-plot,sludge-bomb|anger-point||||
-darmanitan-standard|91|hammer-arm,taunt,superpower,overheat|sheer-force||||
+darmanitan|91|hammer-arm,taunt,superpower,overheat|sheer-force||||
 celebi|93|heal-block,future-sight,healing-wish,leaf-storm|natural-cure||||
 flygon|92|drakon-voice,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 
@@ -881,7 +881,7 @@ flygon|92|drakon-voice,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 aegislash-blade>aegislash-blade|91|swords-dance,iron-head,shadow-sneak,sacred-sword|stance-change|weakness-policy|||
 florges|92|protect,moonblast,wish,toxic|flower-veil|leftovers|||
 delta-girafarig|92|sludge-bomb,flash-cannon,giga-drain,nasty-plot|intimidate|air-balloon|||
-darmanitan-standard|93|flare-blitz,earthquake,superpower,u-turn|sheer-force|choice-scarf|||
+darmanitan|93|flare-blitz,earthquake,superpower,u-turn|sheer-force|choice-scarf|||
 celebi|95|giga-drain,nasty-plot,recover,psychic|natural-cure|leftovers|||
 flygon|94|drakon-voice,ancient-roar,bug-buzz,fire-blast|levitate|flygonite|||
 
@@ -889,7 +889,7 @@ flygon|94|drakon-voice,ancient-roar,bug-buzz,fire-blast|levitate|flygonite|||
 aegislash-blade>aegislash-blade|92|swords-dance,aerial-ace,kings-shield,sacred-sword|stance-change||||
 florges|92|misty-terrain,moonblast,petal-dance,aromatherapy|flower-veil||||
 delta-maractus|92|meteor-mash,bullet-punch,shift-gear,after-you|clear-body||||
-darmanitan-standard|92|hammer-arm,taunt,superpower,overheat|sheer-force||||
+darmanitan|92|hammer-arm,taunt,superpower,overheat|sheer-force||||
 celebi|93|perish-song,future-sight,healing-wish,leaf-storm|natural-cure||||
 flygon|93|draco-meteor,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 
@@ -897,7 +897,7 @@ flygon|93|draco-meteor,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 aegislash-blade>aegislash-blade|93|swords-dance,aerial-ace,kings-shield,sacred-sword|stance-change||||
 florges|93|misty-terrain,moonblast,petal-dance,aromatherapy|flower-veil||||
 delta-maractus|94|meteor-mash,bullet-punch,shift-gear,after-you|clear-body||||
-darmanitan-standard|94|hammer-arm,taunt,superpower,overheat|sheer-force||||
+darmanitan|94|hammer-arm,taunt,superpower,overheat|sheer-force||||
 celebi|96|heal-block,future-sight,healing-wish,leaf-storm|natural-cure||||
 flygon|95|drakon-voice,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 
@@ -905,6 +905,6 @@ flygon|95|drakon-voice,ancient-roar,bug-buzz,boomburst|levitate|flygonite|||
 aegislash-blade>aegislash-blade|93|swords-dance,iron-head,shadow-sneak,sacred-sword|stance-change|weakness-policy|||
 florges|94|protect,moonblast,wish,toxic|flower-veil|leftovers|||
 delta-maractus|94|meteor-mash,bullet-punch,shift-gear,mach-punch|motor-drive|focus-sash|||
-darmanitan-standard|95|flare-blitz,earthquake,superpower,u-turn|sheer-force|choice-scarf|||
+darmanitan|95|flare-blitz,earthquake,superpower,u-turn|sheer-force|choice-scarf|||
 celebi|97|giga-drain,nasty-plot,recover,psychic|natural-cure|leftovers|||
 flygon|96|drakon-voice,ancient-roar,bug-buzz,fire-blast|levitate|flygonite|||

@@ -248,7 +248,7 @@ poison-tail||50
 power-gem||80|This move has a chance of lowering the target's Special Defense by 1 stage
 power-up-punch||40
 psycho-cut||70
-psyshield-bash||70|This raises the user's Defense and Sp. Def by one stage.
+psyshield-bash|psychic|70|This raises the user's Defense and Sp. Def by one stage.|physical
 raging-fury||90|The user then becomes confused.
 rapid-spin||20
 rock-climb|rock|90

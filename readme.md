@@ -1,7 +1,7 @@
 # Nuzlocke Tracker Data
 
 This project is a dump of all the `.txt` files used to generate the
-data for my [Nuzlocke Tracker](https://nuzlocke.vercel.app).
+data for my [Nuzlocke Tracker](https://nuzlocke-redux.vercel.app).
 
 The repository includes game data for all supported games, and I
 welcome contributions for new Rom Hacks or missing games.
@@ -9,12 +9,9 @@ welcome contributions for new Rom Hacks or missing games.
 ## Contributing
 
 Currently, I'm working through entering the data for all existing
-games myself but this can easily be made to support mods or custom game
-formats.
+games myself but this can easily be made to support mods or custom game formats.
 
-If you would like to contribute you will need to provide the following files, the
-`routes.txt` and `league.txt` which should be in the following format
-below
+If you would like to contribute you will need to provide the following files, the `routes.txt` and `league.txt` which should be in the following format below
 
 You can use the [**Boss Editor** app](https://nuzlocke-builder.vercel.app/) to help validate the data you're creating.
 
@@ -80,12 +77,12 @@ PR's welcome where I will do the testing necessary before approval.
 
 ## Development
 
-Generally recommended to have three terminal tabs open, one to rebuild the data on change, one to test in
+If you have a patch file that needs to be used, run:
 
-```
-fswatch {leagues,patches,routes} | xargs -n1 -I{} make data
-```
+`node parsePatch.js`
 
-```
-yarn dev
-```
+Once that's complete, run `node main.js` to generate the game scripts.
+
+If you're validating old games, run:
+
+`bash validator.sh`

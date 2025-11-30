@@ -7,7 +7,7 @@ Cherrygrove City|marill,azumarill,magikarp,krabby,corphish,finneon,lumineon,king
 Route 30|ledyba,taillow,lotad,seedot,caterpie,weedle,kricketot,surskit,ralts,metapod,kakuna,spinarak,hoothoot,lombre,nuzleaf,poliwag,poliwhirl,goldeen,psyduck,seaking,golduck
 Route 31|ledyba,bellsprout,buizel,shinx,abra,natu,exeggcute,psyduck,metapod,kakuna,butterfree,beedrill,wurmple,budew,silcoon,cascoon,spinarak,beautifly,dustox,marill,surskit,masquerain,tentacool,slowpoke,feebas,tentacruel,slowbro
 Dark Cave|geodude,zubat,bronzor,makuhita,sandshrew,teddiursa,slugma,larvitar,dunsparce,chingling,wynaut,golbat,shellos,wooper,gastrodon,goldeen,barboach,quagsire,seaking,whiscash,nosepass,graveler,wobbuffet,ursaring,golem
-Violet City|charmander,squirtle,bulbasaur,poliwag,poliwhirl,magikarp,staryu,whiscash,chinchou,lanturn,
+Violet City|charmander,squirtle,bulbasaur,poliwag,poliwhirl,magikarp,staryu,whiscash,chinchou,lanturn
 Sprout Tower|zigzagoon,rattata,pidgey,bidoof,starly,meditite,spinda,chatot,gastly,bellsprout,glameow,stunky,drifloon,bibarel,linoone
 --Sprout Tower|li|mini-boss|Elder Li
 --Violet City Gym|1|gym-leader|Falkner
@@ -103,11 +103,9 @@ Route 14|nidorina,nidorino,swellow,skiploom,chansey,nidorina,venomoth,chansey,ju
 Route 13|nidorina,nidorino,swellow,skiploom,farfetchd,nidorina,quagsire,noctowl,jumpluff,bonsly,mime-jr,chansey,slowpoke,slowbro,magikarp,poliwag,goldeen,horsea,seadra,poliwhirl,qwilfish
 Route 12|slowpoke,slowbro,relicanth,magikarp,poliwag,goldeen,horsea,seadra,poliwhirl,qwilfish
 Route 8|growlithe,vulpix,kadabra,xatu,staravia,growlithe,haunter,banette,gengar,ninetales,duskull,shuppet
-
 Route 5|pidgeotto,raticate,kadabra,jigglypuff,machop,weepinbell,meditite,chatot,mightyena,persian,medicham,staravia,swellow
 Route 9|primeape,fearow,arbok,nidorina,nidorino,marowak,nidoqueen,nidoking,kangaskhan,flaaffy,goldeen,seaking,magikarp
 Route 10|fearow,luxio,electrode,flaaffy,raticate,manectric,electabuzz,pikachu,luxray,ampharos,pichu,elekid,chinchou,lanturn
-
 Power Plant
 Route 24|weepinbell,kirlia,skiploom,staravia,pidgeotto,roselia,surskit,gloom,noctowl,mightyena,jumpluff,hoppip,goldeen,masquerain,magikarp,seaking,staryu,dratini,dragonair
 Route 25|sunkern,buneary,vigoroth,combee,weepinbell,exeggcute,venomoth,sunflora,lopunny,venonat,slakoth,lairon,hoppip,goldeen,skiploom,masquerain,magikarp,seaking,staryu,dratini,dragonair
@@ -123,7 +121,7 @@ Pewter City
 Route 3|fearow,staravia,pidgeotto,primeape,nidorino,nidorina,jigglypuff,noctowl,spinda,wigglytuff,staraptor,growlithe,vulpix
 Mt. Moon|golbat,clefairy,graveler,sandslash,parasect,crobat,golem,chimecho,solrock,lunatone,clefable,wooper,poliwhirl,quagsire,magikarp,poliwag
 --Mt. Moon|r3|rival|Silver
-Viridian Forest|weepinbell,gloom,ledian,nuzleaf,scyther,,pinsir,wormadam,mothim,tropius,parasect,ariados,carnivine,murkrow,misdreavus,shiftry,vileplume,ambipom,raichu,heracross,mew
+Viridian Forest|weepinbell,gloom,ledian,nuzleaf,scyther,pinsir,wormadam,mothim,tropius,parasect,ariados,carnivine,murkrow,misdreavus,shiftry,vileplume,ambipom,raichu,heracross,mew
 Route 2|butterfree,beedrill,ledian,pidgeotto,pachirisu,cherrim,ariados,noctowl,yanma,pidgeot,sunkern,budew
 Viridian City|poliwag,psyduck,goldeen
 Route 1|pidgey,rattata,sentret,zigzagoon,bidoof,starly,pidgeotto,raticate,furret,staravia,hoothoot,ponyta,shinx,noctowl,rapidash,luxio,staraptor,bibarel,skiploom,linoone
@@ -136,6 +134,6 @@ Route 20|tentacool,wingull,pelipper,tentacruel,wailord,magikarp,goldeen,finneon,
 Route 19|tentacool,wingull,pelipper,mantine,magikarp,goldeen,finneon,clamperl,lumineon,seaking,huntail,gorebyss,krabby,kingler
 Route 22|fearow,dodrio,raticate,primeape,rapidash,poliwag,buizel,poliwhirl,lombre,nuzleaf,poliwag,politoed
 Route 28|tangela,ponyta,rapidash,ursaring,donphan,dodrio,manectric,quagsire,sneasel,tangrowth,arbok,poliwag,poliwhirl,luvdisc,gyarados
-Mt. Silver|tangela,manectric,rapidash,ursaring,donphan,dodrio,quagsire,dusclops,sneasel,tangrowth,arbok,poliwag,poliwhirl,luvdisc,gyarados,phanpy,teddiursa,magmar,larvitar,graveler,golbat,golduck,misdreavus,pupitar,seadra,horsea,goldeen,krabby,corphish,seaking,kingler,crawdaunt,parasect,shelgon,bagon,paras,steelix,rhydon,,rhyperior,magneton,mawile,sableye,solrock,lunatone,magnezone,abomasnow,medicham,loudred,piloswine,snover,absol,noctowl,mamoswine,weavile,onix,gligar,lairon,machoke,skarmory,vibrava,gliscor,flygon,gabite,bronzong,machamp
+Mt. Silver|tangela,manectric,rapidash,ursaring,donphan,dodrio,quagsire,dusclops,sneasel,tangrowth,arbok,poliwag,poliwhirl,luvdisc,gyarados,phanpy,teddiursa,magmar,larvitar,graveler,golbat,golduck,misdreavus,pupitar,seadra,horsea,goldeen,krabby,corphish,seaking,kingler,crawdaunt,parasect,shelgon,bagon,paras,steelix,rhydon,rhyperior,magneton,mawile,sableye,solrock,lunatone,magnezone,abomasnow,medicham,loudred,piloswine,snover,absol,noctowl,mamoswine,weavile,onix,gligar,lairon,machoke,skarmory,vibrava,gliscor,flygon,gabite,bronzong,machamp
 Cerulean Cave|golbat,graveler,sandslash,gloom,weepinbell,venomoth,parasect,ditto,haunter,kadabra,machoke,electrode,wobbuffet,bronzong,magneton,hypno,arbok,rapidash,raichu,nosepass,exploud,alakazam,porygon,golduck,slowbro,magikarp,poliwag,goldeen,krabby,seadra,seaking,rhyhorn,rhydon,solrock,lunatone,dodrio,marowak,wigglytuff,chansey,rhyperior,lickitung,dusclops,chimecho,banette,magcargo,magmar,electabuzz,steelix,dusknoir,lickilicky,clefairy,gyarados,tentacruel,lanturn,quagsire,barboach,finneon,whiscash,lumineon
 --Champion|red|rival|Red

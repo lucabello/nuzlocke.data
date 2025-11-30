@@ -87,12 +87,12 @@ charmeleon|21|ember,scratch|blaze|sitrus-berry|grass
 staraptor|54|brave-bird,quick-attack,close-combat,u-turn|intimidate|sharp-beak
 
 electivire|55|close-combat,mach-punch,ice-punch,volt-switch|iron-fist|expert-belt|fire
-darmanitan-standard|55|u-turn,rock-slide,earthquake,flare-blitz|sheer-force|charcoal|fire
+darmanitan|55|u-turn,rock-slide,earthquake,flare-blitz|sheer-force|charcoal|fire
 jumpluff|55|seed-bomb,double-edge,swords-dance,sleep-powder|aerilate|sharp-beak|fire
 blastoise|55|aura-sphere,water-pulse,ice-beam,shell-smash|torrent|blastoisinite|fire
 
 electivire|55|mach-punch,close-combat,ice-punch,plasma-fists|iron-fist|expert-belt|water
-darmanitan-standard|55|earthquake,rock-slide,u-turn,flare-blitz|sheer-force|charcoal|water
+darmanitan|55|earthquake,rock-slide,u-turn,flare-blitz|sheer-force|charcoal|water
 azumarill|55|play-rough,aqua-jet,ice-punch,liquidation|huge-power|sitrus-berry|water
 venusaur|55|sludge-bomb,giga-drain,earth-power,sleep-powder|overgrow|venusaurite|water
 
@@ -109,8 +109,8 @@ electivire|80|mach-punch,close-combat,ice-punch,plasma-fists|iron-fist|expert-be
 
 azumarill|81|play-rough,ice-punch,liquidation,aqua-jet|huge-power|mystic-water|water
 barbaracle|81|stone-edge,liquidation,earthquake,shell-smash|tough-claws|white-herb|grass
-darmanitan-standard|81|rock-slide,u-turn,earthquake,flare-blitz|sheer-force|life-orb|fire
-darmanitan-standard|81|u-turn,earthquake,rock-slide,flare-blitz|sheer-force|life-orb|water
+darmanitan|81|rock-slide,u-turn,earthquake,flare-blitz|sheer-force|life-orb|fire
+darmanitan|81|u-turn,earthquake,rock-slide,flare-blitz|sheer-force|life-orb|water
 hatterene|81|draining-kiss,mystical-fire,calm-mind,psychic|magic-bounce|leftovers|fire
 hatterene|81|psychic,draining-kiss,mystical-fire,calm-mind|magic-bounce|leftovers|grass
 
@@ -476,7 +476,7 @@ toxtricity-mega>toxtricity-gmax|68|boomburst,overdrive,drain-punch,hidden-power-
 ==effect:sunglight
 heliolisk|76|boomburst,weather-ball,thunderbolt,solar-beam|solar-power|focus-sash|||timid
 groudon-primal>groudon-primal|76|precipice-blades,fire-blast,stone-edge,solar-beam|desolate-land|red-orb|||naive
-darmanitan-galar-standard>darmanitan-galar|76|mountain-gale,flare-blitz,u-turn,rock-slide|zen-mode|ice-gem|||jolly
+darmanitan-galar>darmanitan-galar|76|mountain-gale,flare-blitz,u-turn,rock-slide|zen-mode|ice-gem|||jolly
 venusaur|76|growth,solar-beam,sludge-bomb,weather-ball|chlorophyll|focus-sash|||modest
 ho-oh|76|sacred-fire,brave-bird,earthquake,solar-beam|phoenix-down|flyinium-z|||jolly
 charizard-mega-x>charizard-mega-x|76|dragon-dance,flare-blitz,dragon-claw,earthquake|solar-power/tough-claws|charizardite-x|||jolly
@@ -760,6 +760,11 @@ mewtwo-mega-y>mewtwo-mega-y|80|expanding-force,soul-robbery,flamethrower,aura-sp
 ### Team Rocket ###
 ###################
 
+--r1_hard|Gary||/leaders/frlg-blue-1#Palette town
+squirtle|5|tackle,tail-whip|torrent||fire
+bulbasaur|5|tackle,growl|overgrow||water
+charmander|5|scratch,growl|blaze||grass
+
 --r2_hard|Gary||/leaders/frlg-blue-1#Route 22
 snubbull|-1|power-up-punch,covet,thunder-wave,fire-fang|intimidate|muscle-band|||adamant
 
@@ -801,8 +806,8 @@ jumpluff|+0|spore,double-edge,leaf-blade,swords-dance|aerilate|sharp-beak|fire||
 gorebyss|+0|shell-smash,surf,moonblast,psychic|dazzling|white-herb|water||timid
 gorebyss|+0|shell-smash,surf,moonblast,psychic|dazzling|white-herb|grass||timid
 
-darmanitan-standard|+0|flare-blitz,rock-slide,u-turn,earthquake|sheer-force|life-orb|fire||jolly
-darmanitan-standard|+0|flare-blitz,rock-slide,u-turn,earthquake|sheer-force|life-orb|water||jolly
+darmanitan|+0|flare-blitz,rock-slide,u-turn,earthquake|sheer-force|life-orb|fire||jolly
+darmanitan|+0|flare-blitz,rock-slide,u-turn,earthquake|sheer-force|life-orb|water||jolly
 
 electivire|+0|mach-punch,plasma-fists,close-combat,ice-punch|iron-fist|fighting-gem|||jolly
 

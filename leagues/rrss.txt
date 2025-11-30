@@ -3,7 +3,7 @@
 --ruby1|Tabitha||/leaders/rs-tabitha-oras@Poffin Case@https://pokengine.org/trainers/Tabitha
 mightyena|33|crunch,ice-fang,thunder-fang,swagger|intimidate|muscle-band
 weezing|33|sludge-bomb,flamethrower,thunderbolt,shadow-ball|levitate|wise-glasses
-darmanitan-standard|35|flare-blitz,rock-slide,zen-headbutt,swagger|sheer-force|life-orb
+darmanitan|35|flare-blitz,rock-slide,zen-headbutt,swagger|sheer-force|life-orb
 
 --saph1|Shelly||/leaders/rs-shelly-oras@Gnomowladny@https://www.deviantart.com/gnomowladny
 liepard|33|night-slash,fake-out,play-rough,attract|prankster|muscle-band
@@ -14,7 +14,7 @@ jellicent|35|scald,shadow-ball,psychic,recover|cursed-body|life-orb
 mightyena|33|crunch,play-rough,fire-fang,thunder-fang|intimidate|muscle-band
 weezing|33|sludge-bomb,flamethrower,thunderbolt,shadow-ball|levitate|wise-glasses
 snorlax|33|body-slam,rock-slide,rest,sleep-talk|thick-fat|sitrus-berry
-darmanitan-standard|35|flare-blitz,hammer-arm,zen-headbutt,swagger|sheer-force|life-orb
+darmanitan|35|flare-blitz,hammer-arm,zen-headbutt,swagger|sheer-force|life-orb
 
 --saph2|Shelly||/leaders/rs-shelly-oras@Gnomowladny@https://www.deviantart.com/gnomowladny
 liepard|33|night-slash,fake-out,play-rough,attract|prankster|muscle-band
@@ -53,7 +53,7 @@ weezing|46|sludge-bomb,flamethrower,thunderbolt,toxic-spikes|levitate|expert-bel
 snorlax|46|body-slam,crunch,rest,sleep-talk|thick-fat|leftovers
 gigalith|46|stone-edge,superpower,earthquake,heavy-slam|sturdy|custap-berry
 camerupt|46|flamethrower,earth-power,rock-slide,flash-cannon|solid-rock|focus-sash
-darmanitan-standard|48|flare-blitz,rock-slide,zen-headbutt,earthquake|sheer-force|life-orb
+darmanitan|48|flare-blitz,rock-slide,zen-headbutt,earthquake|sheer-force|life-orb
 
 --saph4|Shelly||/leaders/rs-shelly-oras@Gnomowladny@https://www.deviantart.com/gnomowladny
 liepard|46|dark-pulse,play-rough,thunder-wave,swagger|prankster|black-glasses

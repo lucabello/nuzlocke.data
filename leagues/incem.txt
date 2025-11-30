@@ -29,7 +29,7 @@ shiftry|+0|energy-ball,dark-pulse,air-slash,sunny-day|chlorophyll|heat-rock
 
 --mt1|Tabitha||/leaders/rs-tabitha# - Mount Chimney
 gigalith|+0|power-gem,earth-power,stealth-rock,discharge|sand-stream|passho-berry
-darmanitan-standard|+0|flare-blitz,zen-headbutt,rock-slide,bite|sheer-force|life-orb
+darmanitan|+0|flare-blitz,zen-headbutt,rock-slide,bite|sheer-force|life-orb
 steelix|+1|iron-tail,earthquake,rock-slide,coil|sheer-force|leftovers
 gliscor|+0|wing-attack,dig,toxic,protect|poison-heal|toxic-orb
 
@@ -59,7 +59,7 @@ gyarados-mega|+2|waterfall,crunch,earthquake,dragon-dance|mold-breaker|gyaradosi
 --mtc|Tabitha & Courtney||/leaders/rs-tabitha-courtney# magma hideout
 ==double:true
 gigalith|+1|power-gem,earth-power,weather-ball,thunderbolt|solar-power|rocky-helmet
-darmanitan-standard|+1|flare-blitz,zen-headbutt,rock-slide,iron-head|sheer-force|life-orb
+darmanitan|+1|flare-blitz,zen-headbutt,rock-slide,iron-head|sheer-force|life-orb
 steelix-mega|+2|gyro-ball,drill-run,rock-slide,fire-fang|sand-force|steelixite
 ninetales|+1|heat-wave,moonblast,solar-beam,hypnosis|drought|fire-gem
 krookodile|+1|crunch,high-horsepower,stone-edge,thunder-fang|intimidate|assault-vest
@@ -83,7 +83,7 @@ gyarados-mega|+2|waterfall,crunch,power-whip,dragon-dance|mold-breaker|gyaradosi
 
 --mt2|Tabitha||/leaders/rs-tabitha#mossdeep space centre
 gigalith|+0|weather-ball,earth-power,stealth-rock,thunderbolt|sand-stream|passho-berry
-darmanitan-standard|+0|flare-blitz,zen-headbutt,rock-slide,earthquake|sheer-force|choice-scarf
+darmanitan|+0|flare-blitz,zen-headbutt,rock-slide,earthquake|sheer-force|choice-scarf
 steelix-mega|+2|gyro-ball,earthquake,stone-edge,shore-up|sand-force|steelixite
 gliscor|+0|earthquake,substitute,toxic,protect|poison-heal|toxic-orb
 excadrill|+0|earthquake,iron-head,rock-slide,swords-dance|sand-rush|focus-sash

@@ -36,7 +36,7 @@ Veilstone City|porygon
 --Veilstone Gym|3|gym-leader|Maylene
 Trophy Garden|pichu,pikachu,roselia,staravia,kricketune,clefairy,jigglypuff,meowth,chansey,ditto,eevee,porygon,igglybuff,azurill,marill,plusle,minun,castform,bonsly,mime-jr,happiny
 Pastoria City|tentacool,tentacruel,magikarp,gyarados,remoraid,octillery,wingull,pelipper,shellos,gastrodon
-Great Marsh|
+Great Marsh
 --Pastoria Gym|4|gym-leader|Crasher Wake
 --Pastoria City|b3|rival|Barry
 Route 212|psyduck,golduck,goldeen,seaking,marill,smeargle,ralts,kirlia,budew,starly,staravia,ekans,tentacool,tentacruel,grimer,magikarp,gyarados,wooper,quagsire,remoraid,octillery,lotad,lombre,roselia,barboach,whiscash,bibarel,kricketune,buizel,shellos,gastrodon,croagunk

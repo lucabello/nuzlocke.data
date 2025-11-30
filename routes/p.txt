@@ -44,7 +44,7 @@ Route 213|tentacool,tentacruel,magikarp,gyarados,aipom,heracross,remoraid,octill
 Valor Lakefront|nidorina,nidorino,geodude,graveler,girafarig,staravia,bibarel,kricketune
 Lake Valor|azelf
 Route 214|vulpix,psyduck,golduck,geodude,graveler,ponyta,goldeen,seaking,magikarp,gyarados,sudowoodo,aipom,girafarig,gligar,heracross,houndoom,wurmple,cascoon,spoink,kricketune,burmy,combee,cherubi,munchlax
-Ruin Maniac's Cave|
+Ruin Maniac's Cave
 Ruin Maniac's Tunnel|geodude,hippopotas
 Celestic Town|psyduck,golduck,magikarp,gyarados,barboach,whiscash,corphish,crawdaunt
 --Hearthome Gym|5|gym-leader|Fantina
