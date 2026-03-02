@@ -54,8 +54,8 @@ If any of these files are missing, parseLeague.js will fail. You may need to run
 - `patches/` — text files per-game describing changes to abilities, moves, items, pokemon, and fakemon for romhacks
 - `leagues/` — per-game boss/leader files (.txt or .league) describing battles and pokemon loadouts
 - `routes/` — route encounter lists and optional boss markers
-- `src/processors/parsePatch.js` — reads `patches/*.txt` and writes `patches.json`
-- `src/processors/parseLeague.js` — reads leagues, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
+- `src/processors/parsePatch.js` — reads `data/patches/*.txt` and writes `patches.json`
+- `src/processors/parseLeague.js` — reads `data/leagues/*.txt`, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
 - `src/processors/parseRoutes.js` — compiles `routes/*` into a `routes.json` file intended for the app
 - `validate.js` & `validator.sh` — helpers to compare generated files between this repo and `nuzlocke.app` outputs
 - `final/` — (historical) output JSON files (used for validation comparison)
@@ -90,7 +90,7 @@ npm run generate
 ```
 
 What happens:
-- `src/processors/parsePatch.js` reads `patches/*.txt` and writes `patches.json` (in this repo).
+- `src/processors/parsePatch.js` reads `data/patches/*.txt` and writes `patches.json` (in this repo).
 - `src/processors/parseLeague.js` reads `leagues/*.txt` and `patches.json`, merges data with the app's base JSON (moves, items, abilities, pokemon data) and writes:
   - `league.json` (aggregated enriched league data inside this repo)
   - per-game JSON files into the sibling app at `../nuzlocke.app/static/api/league/` and also into this repo's `final/` directory (if present)
