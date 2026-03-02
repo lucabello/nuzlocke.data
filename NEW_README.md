@@ -51,9 +51,9 @@ If any of these files are missing, parseLeague.js will fail. You may need to run
 
 ## Repository layout (key files / directories)
 
-- `patches/` — text files per-game describing changes to abilities, moves, items, pokemon, and fakemon for romhacks
-- `leagues/` — per-game boss/leader files (.txt or .league) describing battles and pokemon loadouts
-- `routes/` — route encounter lists and optional boss markers
+- `data/patches/` — text files per-game describing changes to abilities, moves, items, pokemon, and fakemon for romhacks
+- `data/leagues/` — per-game boss/leader files (.txt or .league) describing battles and pokemon loadouts
+- `data/routes/` — route encounter lists and optional boss markers
 - `src/processors/parsePatch.js` — reads `data/patches/*.txt` and writes `patches.json`
 - `src/processors/parseLeague.js` — reads `data/leagues/*.txt`, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
 - `src/processors/parseRoutes.js` — compiles `routes/*` into a `routes.json` file intended for the app
