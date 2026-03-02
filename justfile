@@ -1,7 +1,3 @@
-# justfile for nuzlocke.data
-# Requires: just (optional). If you don't have just, run commands directly as shown in the README.
-
-# Default target
 [private]
 @default:
 	just --list
@@ -23,7 +19,6 @@ generate-leagues:
 	@echo "Generating league JSON"
 	node src/processors/parseLeague.js
 
-# parseRoutes.js uses ESM imports; the dynamic-import wrapper below will attempt to load it cross-platform
 [group("generate")]
 generate-routes:
 	@echo "Generating routes.json"

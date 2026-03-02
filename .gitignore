@@ -4,6 +4,7 @@ build/intermediate/patches.json
 routes.json
 build/intermediate/league.json
 build/validation
+build
 
 .DS_STORE
 static

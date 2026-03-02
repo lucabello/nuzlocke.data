@@ -1,7 +1,0 @@
-First File: ../nuzlocke.app/static/api/league/x.grass.json
-Second File: ../nuzlocke.data/final/x.grass.json
-Differences found (1):
-
-Difference at e3.pokemon.3.moves.0.name:
-  First: "King’s Shield"
-  Second: "King's Shield"

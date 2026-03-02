@@ -1,2 +1,0 @@
-First File: ../nuzlocke.app/static/api/league/em.grass.json
-Second File: ../nuzlocke.data/final/em.grass.json
