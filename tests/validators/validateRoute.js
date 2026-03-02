@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 function canonicalize(value) {
   if (Array.isArray(value)) {

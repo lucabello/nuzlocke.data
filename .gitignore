@@ -1,8 +1,10 @@
 node_modules
 _dump
-patches.json
+build/intermediate/patches.json
 routes.json
-league.json
+build/intermediate/league.json
+build/validation
+
 .DS_STORE
 static
 *.modded.txt

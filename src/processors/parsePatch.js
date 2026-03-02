@@ -159,6 +159,8 @@ for (const file of patchFiles) {
     patchOutput[baseName] = result;
 }
 
-const patchesOutputPath = path.join(repoRoot, 'patches.json');
+const patchesOutputPath = path.join(repoRoot, 'build', 'intermediate', 'patches.json');
+const patchesOutputDir = path.dirname(patchesOutputPath);
+if (!fs.existsSync(patchesOutputDir)) fs.mkdirSync(patchesOutputDir, { recursive: true });
 fs.writeFileSync(patchesOutputPath, JSON.stringify(patchOutput, null, 2));
 console.log(`patches.json written to ${patchesOutputPath}`);

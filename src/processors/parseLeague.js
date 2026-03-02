@@ -23,7 +23,9 @@ const rawGames = JSON.parse(fs.readFileSync(gamesPath, 'utf-8'));
 const games = Object.values(rawGames.games || rawGames);
 
 const leaguesDir = path.join(repoRoot, 'data', 'leagues');
-const outputPath = path.join(dataDir, 'league.json');
+const outputPath = path.join(repoRoot, 'build', 'intermediate', 'league.json');
+const outputDirLocal = path.dirname(outputPath);
+if (!fs.existsSync(outputDirLocal)) fs.mkdirSync(outputDirLocal, { recursive: true });
 
 const parseLeaderHeader = (line) => {
   const [index, name, specialty = '', imageInfo = ''] = line.split('|'); // Default specialty to empty string
@@ -172,7 +174,7 @@ for (const file of leagueFiles) {
 // Up to this point matches league.json
 
 // Load augmenting data
-const patches = JSON.parse(fs.readFileSync(path.join(dataDir, 'patches.json'), 'utf8'));
+const patches = JSON.parse(fs.readFileSync(path.join(repoRoot, 'build', 'intermediate', 'patches.json'), 'utf8'));
 const basePokemon = Object.values(JSON.parse(fs.readFileSync(pokemonPath, 'utf8')));
 const baseItems = JSON.parse(fs.readFileSync(path.join(staticDir, 'items.json'), 'utf8'));
 const baseAbilities = Object.values(JSON.parse(fs.readFileSync(path.join(staticDir, 'abilities.json'), 'utf8')));
@@ -322,6 +324,8 @@ console.log(`Enriched league data written to ${outputPath}`);
 
 const finalDir = path.join(repoRoot, '..', 'nuzlocke.app', 'static', 'api', 'league');
 if (!fs.existsSync(finalDir)) fs.mkdirSync(finalDir, { recursive: true });
+const localFinalDir = path.join(repoRoot, 'build', 'final');
+if (!fs.existsSync(localFinalDir)) fs.mkdirSync(localFinalDir, { recursive: true });
 
 function getDifficulties(diffArray) {
   if (!diffArray || diffArray.length === 0) return [{ title: '', suffix: '' }];
@@ -371,6 +375,9 @@ function writeLeagueFile(pid, suffix, starter, data) {
   const outputPath = path.join(finalDir, fileName);
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
   console.log(`Wrote ${outputPath}`);
+  const localOutputPath = path.join(localFinalDir, fileName);
+  fs.writeFileSync(localOutputPath, JSON.stringify(data, null, 2));
+  console.log(`Wrote ${localOutputPath}`);
 }
 
 for (const leagueKey of Object.keys(finalOutput)) {

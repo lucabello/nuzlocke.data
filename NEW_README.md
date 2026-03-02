@@ -8,7 +8,7 @@ This repository holds the text-based source data used to generate the JSON data 
 
 - Input: `data/patches/*.txt`, `data/leagues/*.txt`, and `data/routes/*` text files.
 - Processors: `src/processors/parsePatch.js`, `src/processors/parseLeague.js`, and `src/processors/parseRoutes.js`.
-- Intermediate: `patches.json`, `league.json` (in this repo), and per-game JSON files written into the sibling `nuzlocke.app` repo.
+- Intermediate: `build/intermediate/patches.json`, `build/intermediate/league.json` (in this repo), and per-game JSON files written into the sibling `nuzlocke.app` repo.
 - Output locations expected by the app: `../nuzlocke.app/static/api/league/*` and `../nuzlocke.app/src/lib/data/routes.json` (for route metadata).
 
 ### Flow diagram
@@ -18,13 +18,13 @@ flowchart LR
   patches["data/patches/*.txt"] --> parsePatch["src/processors/parsePatch.js"]
   leagues["data/leagues/*.txt"] --> parseLeague["src/processors/parseLeague.js"]
   routes["data/routes/*"] --> parseRoutes["src/processors/parseRoutes.js"]
-  parsePatch --> patchesJSON["patches.json"]
-  parseLeague --> leagueJSON["league.json"]
+  parsePatch --> patchesJSON["build/intermediate/patches.json"]
+  parseLeague --> leagueJSON["build/intermediate/league.json"]
   parseLeague --> appLeague["../nuzlocke.app/static/api/league/"]
   parseRoutes --> appRoutes["../nuzlocke.app/src/lib/data/routes.json"]
   appLeague --> validator["validator.sh / validate.js"]
-  final["final/"] --> validator
-  validator --> validationResults["validation-results/"]
+  final["build/final/"] --> validator
+  validator --> validationResults["build/validation/"]
 ```
 
 This repository is intended to be used alongside a sibling checkout of the nuzlocke.app repository at the same parent directory (i.e., `../nuzlocke.app`). The generator scripts rely on several JSON files inside that app repository (moves, items, abilities, games metadata, and a pokemon index).
@@ -54,12 +54,12 @@ If any of these files are missing, parseLeague.js will fail. You may need to run
 - `data/patches/` — text files per-game describing changes to abilities, moves, items, pokemon, and fakemon for romhacks
 - `data/leagues/` — per-game boss/leader files (.txt or .league) describing battles and pokemon loadouts
 - `data/routes/` — route encounter lists and optional boss markers
-- `src/processors/parsePatch.js` — reads `data/patches/*.txt` and writes `patches.json`
-- `src/processors/parseLeague.js` — reads `data/leagues/*.txt`, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
+- `src/processors/parsePatch.js` — reads `data/patches/*.txt` and writes `build/intermediate/patches.json`
+- `src/processors/parseLeague.js` — reads `data/leagues/*.txt`, uses `build/intermediate/patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
 - `src/processors/parseRoutes.js` — compiles `routes/*` into a `routes.json` file intended for the app
 - `validate.js` & `validator.sh` — helpers to compare generated files between this repo and `nuzlocke.app` outputs
-- `final/` — (historical) output JSON files (used for validation comparison)
-- `patches.json`, `league.json` (top-level artifacts produced by the scripts)
+- `build/final/` — (historical) output JSON files (used for validation comparison)
+- `build/intermediate/patches.json`, `build/intermediate/league.json` (top-level artifacts produced by the scripts)
 
 ---
 
@@ -113,7 +113,7 @@ A script is included to compare the per-game JSON files produced in `../nuzlocke
 ```bash
 npm run validate
 # runs: bash validator.sh
-# output files: validation-results/*.txt
+# output files: build/validation/*.txt
 ```
 
 The validator writes textual diffs into `validation-results/`. Review those files to find differences between the two sources. There are two validator helpers included: `validate.js` and `compareJsonAllDiffsUnorderedArrays.js` to assist in different comparison styles.

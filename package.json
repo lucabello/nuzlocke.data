@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "scripts": {
     "generate": "node src/processors/parsePatch.js && node src/processors/parseLeague.js",
-    "validate": "bash validator.sh"
+    "validate": "just validate"
   }
 }
