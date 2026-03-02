@@ -91,7 +91,7 @@ npm run generate
 
 What happens:
 - `src/processors/parsePatch.js` reads `data/patches/*.txt` and writes `patches.json` (in this repo).
-- `src/processors/parseLeague.js` reads `leagues/*.txt` and `patches.json`, merges data with the app's base JSON (moves, items, abilities, pokemon data) and writes:
+- `src/processors/parseLeague.js` reads `data/leagues/*.txt` and `patches.json`, merges data with the app's base JSON (moves, items, abilities, pokemon data) and writes:
   - `league.json` (aggregated enriched league data inside this repo)
   - per-game JSON files into the sibling app at `../nuzlocke.app/static/api/league/` and also into this repo's `final/` directory (if present)
 
