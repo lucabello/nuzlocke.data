@@ -216,3 +216,36 @@ npm run validate
 ---
 
 If anything is missing or you want these docs tweaked to include step-by-step screenshots or CI examples, reply and I will adjust the README or create a Makefile/CI workflow as requested.
+
+---
+
+## Patch files, codenames, and ROM mapping
+
+There are three primary text-based inputs in this repo which serve different purposes:
+
+- data/patches/*.txt — per-ROM/romhack "patch" files that declare overrides and additions (sections: --item, --move, --ability, --pokemon, --fakemon). Use these to change base move power/type/effects, add or rename items/abilities, tweak pokemon stats/types/evolutions, or declare entirely new fakemon.
+- data/leagues/*.txt (or .league) — boss/leader definition files that list encounters and movesets (these reference pokemon names and may reference patched fakemon or patched pokemon).
+- data/routes/* — route encounter lists (plain route metadata and encounter lists) which are compiled to a single routes.json for the app.
+
+How to add a new patch from zero
+
+1. Choose a codename: the patch file base name (the file you add to data/patches/) becomes the patch key. Pick a lowercase, hyphen-separated identifier that will be used as the patchId in the sibling nuzlocke.app games metadata (examples: radred, unbound, blazevolt2). The codename must match the entry used by the app so parseLeague can look up the right patch when enriching leagues.
+
+2. Create the file: add data/patches/<codename>.txt and author sections using the parser format (use --item, --move, --ability, --pokemon, --fakemon as needed). See examples in data/patches/ for exact pipe-delimited line formats.
+
+3. Wire it to the app: ensure the sibling nuzlocke.app contains a games.json entry for the game whose patch you are adding and that that game's metadata uses patchId: "<codename>" (parseLeague looks up gameMetadata.patchId when enriching). If the game is entirely new to the app, add the appropriate entry in nuzlocke.app/src/lib/data/games.json (pid/lid and patchId) following the app's conventions.
+
+4. Generate: run npm run generate from this repo root (this runs parsePatch then parseLeague). parsePatch will produce build/intermediate/patches.json keyed by your codename; parseLeague will merge your patch with the app's base JSON and write per-game outputs into ../nuzlocke.app/static/api/league/ and a local copy into build/final/.
+
+Notes on choosing where to put data in the patch file
+
+- Use --fakemon for brand-new monsters that do not exist in the app's base pokemon index. Provide a full fakemon line (stats, name, alias, types, sprite, evoLine) so parseLeague can include it directly.
+- Use --pokemon to override or augment an existing base pokemon (partial stat lists are allowed to only change specific stats; you can also set types or evolutions in this section).
+- Use --move, --item, and --ability to override or add entries not present in the app's assets; patch values will be merged on top of the app's move/item/ability JSON.
+
+What the "ROMs" map to
+
+- "ROM" in this workflow is simply the romhack/game identifier (the codename described above). The codename ties three places together: the patch file in data/patches, the game entry in ../nuzlocke.app/src/lib/data/games.json (via patchId), and the per-game output filenames the generator produces (which use the game's pid and difficulty suffix from games.json).
+- When parseLeague runs it uses the game's metadata (pid/lid/patchId/difficulty) from the app to decide which leaders map to which output files and which patch to apply. So the patch codename controls which overrides are applied to a game's generated JSON; the ROM file itself is not read by these scripts — only the codename and the app's metadata matter.
+
+If you want, I can add a small example showing a new data/patches/<codename>.txt and the minimal games.json entry required to wire it into the pipeline.
