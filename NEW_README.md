@@ -38,14 +38,21 @@ This repository is intended to be used alongside a sibling checkout of the nuzlo
 - Optional tooling: `just` if you want to use the provided justfile recipes (see below). On macOS: `brew install just`; on Linux check your package manager or build from source.
 
 Notes about `nuzlocke.app` expectations
-- parseLeague.js reads several files inside the sibling `nuzlocke.app` repo. Ensure these paths exist (the exact files used are):
-  - `../nuzlocke.app/src/lib/data/games.json`
-  - `../nuzlocke.app/src/routes/assets/data/items.json`
-  - `../nuzlocke.app/src/routes/assets/data/abilities.json`
-  - `../nuzlocke.app/src/routes/assets/data/moves.json`
-  - `../nuzlocke.app/src/routes/api/pokemon.json/_pokemon.json` (this repo expects a _pokemon.json file under a folder named `pokemon.json` in that path; see Troubleshooting below if this is unexpected)
 
-If any of these files are missing, parseLeague.js will fail. You may need to run a build or export step in the `nuzlocke.app` repo first (check that repo's docs for assembling `src/routes/assets/data`).
+The generators read several input files from the sibling `nuzlocke.app` repository and write per-game output JSON back into that repo. Ensure the following input files exist in `../nuzlocke.app`:
+
+Inputs (read from ../nuzlocke.app):
+- ../nuzlocke.app/src/lib/data/games.json
+- ../nuzlocke.app/src/routes/assets/data/items.json
+- ../nuzlocke.app/src/routes/assets/data/abilities.json
+- ../nuzlocke.app/src/routes/assets/data/moves.json
+- ../nuzlocke.app/src/routes/api/pokemon.json/_pokemon.json
+
+Outputs (written into ../nuzlocke.app):
+- ../nuzlocke.app/static/api/league/*.json  — per-game league files produced by src/processors/parseLeague.js
+- ../nuzlocke.app/src/lib/data/routes.json — produced by src/processors/parseRoutes.js
+
+If any of the input files are missing, parseLeague.js or parseRoutes.js will fail. You may need to run a build or export step in the `nuzlocke.app` repo first (check that repo's docs for assembling `src/routes/assets/data`).
 
 ---
 
