@@ -1,0 +1,41 @@
+First File: ../nuzlocke.app/static/api/league/sc.fire.json
+Second File: ../nuzlocke.data/final/sc.fire.json
+Differences found (21):
+
+Difference at 6.pokemon.1.name:
+  First: "mimikyu"
+  Second: "mimikyu-disguised"
+Missing key in second file:	6.pokemon.1.sprite; Expected Value: "778"
+Missing key in second file:	6.pokemon.1.types; Expected Value: ["ghost","fairy"]
+Missing key in second file:	6.pokemon.1.stats; Expected Value: {"hp":55,"atk":90,"def":80,"spa":50,"spd":105,"spe":96}
+Difference at r2.pokemon.0.name:
+  First: "lycanroc"
+  Second: "lycanroc-midday"
+Missing key in second file:	r2.pokemon.0.sprite; Expected Value: "745"
+Missing key in second file:	r2.pokemon.0.types; Expected Value: ["rock"]
+Missing key in second file:	r2.pokemon.0.stats; Expected Value: {"hp":75,"atk":115,"def":65,"spa":55,"spd":65,"spe":112}
+Difference at r3.pokemon.0.name:
+  First: "lycanroc"
+  Second: "lycanroc-midday"
+Missing key in second file:	r3.pokemon.0.sprite; Expected Value: "745"
+Missing key in second file:	r3.pokemon.0.types; Expected Value: ["rock"]
+Missing key in second file:	r3.pokemon.0.stats; Expected Value: {"hp":75,"atk":115,"def":65,"spa":55,"spd":65,"spe":112}
+Difference at giacomo.pokemon.1.moves.0.type:
+  First: "dark"
+  Second: "ground"
+Difference at ortega.pokemon.2.ability.name:
+  First: "Well-Baked Body"
+  Second: "Well Baked-body"
+Difference at eri.pokemon.4.moves.0.type:
+  First: "fighting"
+  Second: "ground"
+Difference at ec.pokemon.5.moves.0.damage_class:
+  First: "special"
+  Second: "physical"
+Difference at ec2.pokemon.0.name:
+  First: "lycanroc"
+  Second: "lycanroc-midday"
+Missing key in second file:	ec2.pokemon.0.sprite; Expected Value: "745"
+Missing key in second file:	ec2.pokemon.0.types; Expected Value: ["rock"]
+Missing key in second file:	ec2.pokemon.0.stats; Expected Value: {"hp":75,"atk":115,"def":65,"spa":55,"spd":65,"spe":112}
+Missing key in first file:	t4v; Expected Value: {"name":"Iron Treads","speciality":"","img":"/sprite/990","pokemon":[{"name":"iron-treads","level":"45","moves":[{"power":50,"type":"normal","damage_class":"physical","name":"Rapid Spin","effect":""},{"power":80,"type":"steel","damage_class":"physical","name":"Iron Head","effect":""},{"power":65,"type":"dark","damage_class":"physical","name":"Knock Off","effect":""},{"power":75,"type":"ground","damage_class":"physical","name":"Stomping Tantrum","effect":""}],"ability":{"name":"Quark Drive"},"sprite":"990","types":["ground","steel"],"stats":{"hp":90,"atk":112,"def":120,"spa":72,"spd":70,"spe":106}}]}

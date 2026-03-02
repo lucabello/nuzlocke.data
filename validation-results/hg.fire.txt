@@ -1,0 +1,2 @@
+First File: ../nuzlocke.app/static/api/league/hg.fire.json
+Second File: ../nuzlocke.data/final/hg.fire.json

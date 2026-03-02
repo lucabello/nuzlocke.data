@@ -1,8 +1,9 @@
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
-const inputDir = './routes';
-const outputFile = '..\\nuzlocke.app\\src\\lib\\data\\routes.json'; 
+const repoRoot = path.resolve(__dirname, '..', '..');
+const inputDir = path.join(repoRoot, 'routes');
+const outputFile = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data', 'routes.json');
 
 // Master output object
 const allData = {};

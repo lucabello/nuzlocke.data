@@ -1,0 +1,525 @@
+First File: ../nuzlocke.app/static/api/league/blazevolt2_c.grass.json
+Second File: ../nuzlocke.data/final/blazevolt2_c.grass.json
+Differences found (285):
+
+Difference at r1_c.pokemon.1.moves.3.power:
+  First: "20"
+  Second: 30
+Difference at r1_c.pokemon.2.moves.2.power:
+  First: "20"
+  Second: 30
+Difference at r1_c.pokemon.2.moves.3.power:
+  First: "35"
+  Second: 45
+Missing key in second file:	r2; Expected Value: {"name":"Hugh","speciality":"","img":"/leaders/blwh-hugh","pokemon":[{"name":"swellow","level":"46","moves":[{"power":140,"type":"normal","damage_class":"special","name":"Boomburst","effect":""},{"power":40,"type":"normal","damage_class":"physical","name":"Quick Attack","effect":"","priority":1},{"power":"120","type":"flying","damage_class":"special","name":"Hurricane","effect":""},{"power":70,"type":"bug","damage_class":"physical","name":"U-turn","effect":""}],"ability":{"name":"Scrappy","effect":""},"held":{"sprite":"metronome","name":"Metronome","effect":""},"sprite":"277","types":["normal","flying"],"stats":{"hp":60,"atk":85,"def":60,"spa":85,"spd":50,"spe":125}},{"name":"eelektrik","level":"46","moves":[{"power":90,"type":"electric","damage_class":"physical","name":"Wild Charge","effect":""},{"power":"90","type":"water","damage_class":"physical","name":"Aqua Tail","effect":""},{"power":"75","type":"grass","damage_class":"special","name":"Giga Drain","effect":""},{"power":75,"type":"fighting","damage_class":"physical","name":"Drain Punch","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"603","types":["electric"],"stats":{"hp":65,"atk":85,"def":70,"spa":75,"spd":70,"spe":40}},{"name":"flygon","level":"47","moves":[{"power":70,"type":"ground","damage_class":"special","name":"Scorching Sands","effect":""},{"power":"80","type":"dragon","damage_class":"physical","name":"Dragon Claw","effect":""},{"power":80,"type":"bug","damage_class":"physical","name":"Lunge","effect":""},{"type":"dragon","damage_class":"status","name":"Dragon Dance","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"330","types":["bug","dragon"],"stats":{"hp":90,"atk":110,"def":85,"spa":130,"spd":85,"spe":100}},{"name":"starmie","level":"46","moves":[{"power":80,"type":"water","damage_class":"special","name":"Scald","effect":""},{"power":80,"type":"psychic","damage_class":"special","name":"Psyshock","effect":""},{"power":75,"type":"bug","damage_class":"special","name":"Signal Beam","effect":""},{"power":80,"type":"normal","damage_class":"special","name":"Tri Attack","effect":""}],"ability":{"name":"Regenerator","effect":""},"held":{"sprite":"red-card","name":"Red Card","effect":""},"starter":"grass","sprite":"121","types":["water","psychic"],"stats":{"hp":60,"atk":75,"def":85,"spa":100,"spd":85,"spe":115}},{"name":"emboar","level":"47","moves":[{"power":85,"type":"normal","damage_class":"physical","name":"Body Slam","effect":""},{"power":"50","type":"fire","damage_class":"physical","name":"Flame Charge","effect":""},{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"power":100,"type":"fighting","damage_class":"physical","name":"Cross Chop","effect":""}],"ability":{"name":"Mold Breaker","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"starter":"grass","sprite":"500","types":["fire","ground"],"stats":{"hp":110,"atk":123,"def":65,"spa":100,"spd":65,"spe":65}}]}
+Difference at r3_c.pokemon.0.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	r3_c.pokemon.0.stats.hp; Expected Value: 60
+Missing key in second file:	r3_c.pokemon.0.stats.atk; Expected Value: 85
+Missing key in second file:	r3_c.pokemon.0.stats.def; Expected Value: 60
+Missing key in second file:	r3_c.pokemon.0.stats.spd; Expected Value: 50
+Missing key in second file:	r3_c.pokemon.0.stats.spe; Expected Value: 125
+Missing key in second file:	r3_c.pokemon.2.stats.spe; Expected Value: 100
+Difference at r4_c.pokemon.0.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	r4_c.pokemon.0.stats.hp; Expected Value: 60
+Missing key in second file:	r4_c.pokemon.0.stats.atk; Expected Value: 85
+Missing key in second file:	r4_c.pokemon.0.stats.def; Expected Value: 60
+Missing key in second file:	r4_c.pokemon.0.stats.spd; Expected Value: 50
+Missing key in second file:	r4_c.pokemon.0.stats.spe; Expected Value: 125
+Missing key in second file:	r4_c.pokemon.2.stats.spe; Expected Value: 100
+Difference at r4_c.pokemon.4.moves.1.power:
+  First: "80"
+  Second: 70
+Difference at bianca_c.pokemon.3.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at bianca_c.pokemon.4.moves.3.power:
+  First: "75"
+  Second: 120
+Missing key in second file:	emin; Expected Value: {"name":"Emmet & Ingo","speciality":"","img":"/leaders/blazevolt-ingo-emmet","pokemon":[{"name":"eelektross","level":"34","moves":[{"power":"95","type":"electric","damage_class":"special","name":"Thunderbolt","effect":""},{"power":75,"type":"fighting","damage_class":"physical","name":"Brick Break","effect":""},{"type":"normal","damage_class":"status","name":"Protect","effect":"","priority":4},{"type":"electric","damage_class":"status","name":"Thunder Wave","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"magnet","name":"Magnet","effect":""},"sprite":"604","types":["electric"],"stats":{"hp":85,"atk":115,"def":80,"spa":105,"spd":80,"spe":50}},{"name":"chandelure","level":"34","moves":[{"power":"95","type":"fire","damage_class":"special","name":"Heat Wave","effect":""},{"power":"50","type":"ghost","damage_class":"special","name":"Hex","effect":""},{"type":"normal","damage_class":"status","name":"Protect","effect":"","priority":4},{"type":"fire","damage_class":"status","name":"Will-O-Wisp","effect":""}],"ability":{"name":"Flash Fire","effect":""},"held":{"sprite":"charcoal","name":"Charcoal","effect":""},"sprite":"609","types":["ghost","fire"],"stats":{"hp":60,"atk":55,"def":90,"spa":145,"spd":90,"spe":80}},{"name":"umbreon","level":"34","moves":[{"type":"normal","damage_class":"status","name":"Helping Hand","effect":"","priority":5},{"power":95,"type":"dark","damage_class":"physical","name":"Foul Play","effect":""},{"type":"dark","damage_class":"status","name":"Fake Tears","effect":""},{"power":"50","type":"dark","damage_class":"physical","name":"Assurance","effect":""}],"ability":{"name":"Synchronize","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"197","types":["dark"],"stats":{"hp":95,"atk":65,"def":110,"spa":60,"spd":130,"spe":65}},{"name":"espeon","level":"34","moves":[{"power":90,"type":"psychic","damage_class":"special","name":"Psychic","effect":""},{"power":80,"type":"fairy","damage_class":"special","name":"Dazzling Gleam","effect":""},{"power":"80","type":"rock","damage_class":"special","name":"Power Gem","effect":""},{"power":"80","type":"fighting","damage_class":"special","name":"Aura Sphere","effect":""}],"ability":{"name":"Magic Bounce","effect":""},"held":{"sprite":"psychic-gem","name":"Psychic Gem","effect":""},"sprite":"196","types":["psychic"],"stats":{"hp":65,"atk":65,"def":60,"spa":130,"spd":95,"spe":110}}]}
+Missing key in second file:	natros; Expected Value: {"name":"Nate & Rosa","speciality":"","img":"/leaders/blazevolt-nate-rosa","pokemon":[{"name":"dewott","level":"31","moves":[{"power":75,"type":"water","damage_class":"physical","name":"Razor Shell","effect":""},{"power":40,"type":"water","damage_class":"physical","name":"Aqua Jet","effect":"","priority":1},{"power":40,"type":"dragon","damage_class":"physical","name":"Dual Chop","effect":""},{"power":"40","type":"fighting","damage_class":"physical","name":"Storm Throw","effect":""}],"ability":{"name":"Shell Armor","effect":""},"held":{"sprite":"sitrus-berry","name":"Sitrus Berry","effect":""},"starter":"grass","sprite":"502","types":["water","fighting"],"stats":{"hp":75,"atk":75,"def":60,"spa":83,"spd":60,"spe":60}},{"name":"simisear","level":"30","moves":[{"type":"normal","damage_class":"status","name":"Tickle","effect":""},{"power":80,"type":"fire","damage_class":"physical","name":"Fire Lash","effect":""},{"power":55,"type":"flying","damage_class":"physical","name":"Acrobatics","effect":""},{"power":80,"type":"dark","damage_class":"physical","name":"Crunch","effect":""}],"ability":{"name":"Gluttony","effect":""},"held":{"sprite":"sitrus-berry","name":"Sitrus Berry","effect":""},"starter":"grass","sprite":"514","types":["fire"],"stats":{"hp":75,"atk":98,"def":63,"spa":98,"spd":63,"spe":101}}]}
+Difference at o1_c.pokemon.0.moves.0.power:
+  First: "50"
+  Second: 60
+Difference at o1_c.pokemon.0.moves.3.power:
+  First: "20"
+  Second: 65
+Difference at o1_c.pokemon.1.moves.0.power:
+  First: "50"
+  Second: 60
+Difference at o1_c.pokemon.2.moves.0.power:
+  First: "50"
+  Second: 60
+Missing key in second file:	o1_c.pokemon.2.stats.hp; Expected Value: 30
+Missing key in second file:	o1_c.pokemon.2.stats.def; Expected Value: 135
+Missing key in second file:	o1_c.pokemon.2.stats.spd; Expected Value: 90
+Missing key in second file:	o1_c.pokemon.2.stats.spe; Expected Value: 30
+Difference at o1_c.pokemon.3.moves.0.power:
+  First: "50"
+  Second: 60
+Difference at o2_c.pokemon.0.moves.2.power:
+  First: "50"
+  Second: 60
+Missing key in second file:	o2_c.pokemon.1.stats.hp; Expected Value: 30
+Missing key in second file:	o2_c.pokemon.1.stats.def; Expected Value: 55
+Missing key in second file:	o2_c.pokemon.1.stats.spd; Expected Value: 55
+Missing key in second file:	o2_c.pokemon.1.stats.spe; Expected Value: 60
+Difference at o2_c.pokemon.3.moves.1.power:
+  First: "50"
+  Second: 60
+Missing key in second file:	o2_c.pokemon.4.stats.spa; Expected Value: 20
+Missing key in second file:	o2_c.pokemon.4.stats.spe; Expected Value: 25
+Difference at o3_c.pokemon.1.name:
+  First: "rotom"
+  Second: "rotom-frost"
+Difference at o3_c.pokemon.1.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at o3_c.pokemon.1.moves.2.power:
+  First: "50"
+  Second: 65
+Missing key in second file:	o3_c.pokemon.1.icon; Expected Value: "rotom-frost"
+Missing key in second file:	o3_c.pokemon.5.stats.hp; Expected Value: 65
+Missing key in second file:	o3_c.pokemon.5.stats.spd; Expected Value: 85
+Difference at o4_c.pokemon.0.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at o4_c.pokemon.1.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at o4_c.pokemon.2.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at o4_c.pokemon.3.name:
+  First: "rotom"
+  Second: "rotom-heat"
+Difference at o4_c.pokemon.3.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at o4_c.pokemon.3.moves.3.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o4_c.pokemon.3.icon; Expected Value: "rotom-heat"
+Difference at o4_c.pokemon.4.moves.0.power:
+  First: "140"
+  Second: 130
+Missing key in second file:	o4_c.pokemon.4.stats.def; Expected Value: 70
+Missing key in second file:	o4_c.pokemon.4.stats.spa; Expected Value: 105
+Missing key in second file:	o4_c.pokemon.4.stats.spd; Expected Value: 75
+Missing key in second file:	o4_c.pokemon.4.stats.spe; Expected Value: 40
+Difference at o4_c.pokemon.5.moves.0.power:
+  First: "140"
+  Second: 130
+Missing key in second file:	o4_c.pokemon.5.stats.hp; Expected Value: 60
+Missing key in second file:	o4_c.pokemon.5.stats.atk; Expected Value: 50
+Missing key in second file:	o4_c.pokemon.5.stats.spe; Expected Value: 30
+Difference at o5_c.pokemon.0.moves.1.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o5_c.pokemon.0.stats.hp; Expected Value: 104
+Missing key in second file:	o5_c.pokemon.0.stats.def; Expected Value: 63
+Missing key in second file:	o5_c.pokemon.0.stats.spd; Expected Value: 73
+Missing key in second file:	o5_c.pokemon.1.stats.atk; Expected Value: 100
+Missing key in second file:	o5_c.pokemon.1.stats.def; Expected Value: 95
+Missing key in second file:	o5_c.pokemon.1.stats.spa; Expected Value: 40
+Missing key in second file:	o5_c.pokemon.1.stats.spd; Expected Value: 70
+Missing key in second file:	o5_c.pokemon.1.stats.spe; Expected Value: 110
+Missing key in second file:	o5_c.pokemon.2.stats.hp; Expected Value: 64
+Missing key in second file:	o5_c.pokemon.2.stats.def; Expected Value: 65
+Missing key in second file:	o5_c.pokemon.2.stats.spd; Expected Value: 63
+Missing key in second file:	o5_c.pokemon.2.stats.spe; Expected Value: 65
+Missing key in second file:	o5_c.pokemon.3.stats.atk; Expected Value: 115
+Missing key in second file:	o5_c.pokemon.3.stats.def; Expected Value: 60
+Missing key in second file:	o5_c.pokemon.3.stats.spa; Expected Value: 60
+Missing key in second file:	o5_c.pokemon.3.stats.spd; Expected Value: 60
+Missing key in second file:	o5_c.pokemon.5.stats.spe; Expected Value: 100
+Difference at o6_c.pokemon.1.moves.0.power:
+  First: "95"
+  Second: 90
+Difference at o6_c.pokemon.1.moves.1.power:
+  First: "95"
+  Second: 90
+Difference at o6_c.pokemon.2.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at o6_c.pokemon.2.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at o6_c.pokemon.2.moves.2.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o6_c.pokemon.2.stats.hp; Expected Value: 60
+Missing key in second file:	o6_c.pokemon.2.stats.atk; Expected Value: 50
+Missing key in second file:	o6_c.pokemon.2.stats.spa; Expected Value: 95
+Missing key in second file:	o6_c.pokemon.2.stats.spe; Expected Value: 65
+Difference at o6_c.pokemon.3.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at o6_c.pokemon.3.moves.1.power:
+  First: "95"
+  Second: 90
+Difference at o6_c.pokemon.3.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	o6_c.pokemon.5.stats.hp; Expected Value: 100
+Missing key in second file:	o6_c.pokemon.5.stats.atk; Expected Value: 50
+Missing key in second file:	o6_c.pokemon.5.stats.def; Expected Value: 80
+Missing key in second file:	o6_c.pokemon.5.stats.spd; Expected Value: 80
+Missing key in second file:	o6_c.pokemon.5.stats.spe; Expected Value: 50
+Difference at o7_c.pokemon.0.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.0.moves.2.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.1.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.1.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.2.name:
+  First: "rotom"
+  Second: "rotom-fan"
+Difference at o7_c.pokemon.2.moves.0.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	o7_c.pokemon.2.icon; Expected Value: "rotom-fan"
+Difference at o7_c.pokemon.3.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.3.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.3.moves.3.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o7_c.pokemon.3.stats.hp; Expected Value: 60
+Missing key in second file:	o7_c.pokemon.3.stats.atk; Expected Value: 50
+Missing key in second file:	o7_c.pokemon.3.stats.spa; Expected Value: 95
+Missing key in second file:	o7_c.pokemon.3.stats.spe; Expected Value: 65
+Missing key in second file:	o7_c.pokemon.4.stats.def; Expected Value: 90
+Missing key in second file:	o7_c.pokemon.4.stats.spa; Expected Value: 70
+Missing key in second file:	o7_c.pokemon.4.stats.spd; Expected Value: 105
+Missing key in second file:	o7_c.pokemon.4.stats.spe; Expected Value: 80
+Difference at o7_c.pokemon.5.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at o7_c.pokemon.5.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	o8_c.pokemon.0.stats.hp; Expected Value: 40
+Missing key in second file:	o8_c.pokemon.0.stats.def; Expected Value: 65
+Missing key in second file:	o8_c.pokemon.0.stats.spd; Expected Value: 120
+Difference at o8_c.pokemon.1.moves.3.power:
+  First: "95"
+  Second: 90
+Difference at o8_c.pokemon.2.moves.1.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o8_c.pokemon.2.stats.hp; Expected Value: 90
+Missing key in second file:	o8_c.pokemon.2.stats.atk; Expected Value: 55
+Missing key in second file:	o8_c.pokemon.2.stats.def; Expected Value: 65
+Missing key in second file:	o8_c.pokemon.2.stats.spd; Expected Value: 85
+Missing key in second file:	o8_c.pokemon.2.stats.spe; Expected Value: 70
+Missing key in second file:	o8_c.pokemon.3.moves.2.power; Expected Value: "70"
+Difference at o8_c.pokemon.3.moves.2.type:
+  First: "psychic"
+  Second: "unknown"
+Difference at o8_c.pokemon.3.moves.2.damage_class:
+  First: "physical"
+  Second: "unknown"
+Difference at o8_c.pokemon.3.moves.2.name:
+  First: "Psyshield Bash"
+  Second: "psyshield-bash"
+Missing key in second file:	o8_c.pokemon.3.stats.atk; Expected Value: 95
+Missing key in second file:	o8_c.pokemon.3.stats.def; Expected Value: 85
+Missing key in second file:	o8_c.pokemon.3.stats.spa; Expected Value: 55
+Missing key in second file:	o8_c.pokemon.3.stats.spd; Expected Value: 65
+Missing key in second file:	o8_c.pokemon.3.stats.spe; Expected Value: 70
+Missing key in second file:	o8_c.pokemon.5.stats.hp; Expected Value: 60
+Missing key in second file:	o8_c.pokemon.5.stats.spa; Expected Value: 60
+Difference at o8_c.pokemon.6.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at o8_c.pokemon.7.moves.2.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	o9_hail; Expected Value: {"name":"Hail Trainer Caroll","speciality":"","img":"/leaders/blazevolt-caroll","pokemon":[{"name":"abomasnow","level":"72","moves":[{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"power":40,"type":"ice","damage_class":"physical","name":"Ice Shard","effect":"","priority":1},{"power":120,"type":"fighting","damage_class":"special","name":"Focus Blast","effect":""},{"power":120,"type":"grass","damage_class":"physical","name":"Wood Hammer","effect":""}],"ability":{"name":"Snow Warning","effect":""},"held":{"sprite":"occa-berry","name":"Occa Berry","effect":""},"sprite":"460","types":["grass","ice"],"stats":{"hp":90,"atk":92,"def":75,"spa":92,"spd":85,"spe":60}},{"name":"reuniclus","level":"72","moves":[{"power":90,"type":"psychic","damage_class":"special","name":"Psychic","effect":""},{"power":"80","type":"grass","damage_class":"special","name":"Energy Ball","effect":""},{"power":80,"type":"ghost","damage_class":"special","name":"Shadow Ball","effect":""},{"power":120,"type":"fighting","damage_class":"special","name":"Focus Blast","effect":""}],"ability":{"name":"Magic Guard","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"579","types":["psychic"],"stats":{"hp":110,"atk":65,"def":75,"spa":125,"spd":85,"spe":30}},{"name":"weavile","level":"72","moves":[{"power":85,"type":"ice","damage_class":"physical","name":"Icicle Crash","effect":""},{"power":60,"type":"flying","damage_class":"physical","name":"Aerial Ace","effect":""},{"power":70,"type":"dark","damage_class":"physical","name":"Night Slash","effect":""},{"power":40,"type":"ice","damage_class":"physical","name":"Ice Shard","effect":"","priority":1}],"ability":{"name":"Pressure","effect":""},"held":{"sprite":"focus-sash","name":"Focus Sash","effect":""},"sprite":"461","types":["dark","ice"],"stats":{"hp":70,"atk":120,"def":65,"spa":45,"spd":85,"spe":125}},{"name":"vanilluxe","level":"72","moves":[{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"power":"80","type":"rock","damage_class":"special","name":"Power Gem","effect":""},{"power":80,"type":"psychic","damage_class":"special","name":"Extrasensory","effect":""},{"power":80,"type":"fairy","damage_class":"special","name":"Dazzling Gleam","effect":""}],"ability":{"name":"Snow Warning","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"584","types":["ice","fairy"],"stats":{"hp":71,"atk":95,"def":85,"spa":110,"spd":95,"spe":79}},{"name":"cloyster","level":"72","moves":[{"type":"normal","damage_class":"status","name":"Shell Smash","effect":""},{"power":25,"type":"ice","damage_class":"physical","name":"Icicle Spear","effect":""},{"power":25,"type":"rock","damage_class":"physical","name":"Rock Blast","effect":""},{"power":"120","type":"water","damage_class":"special","name":"Hydro Pump","effect":""}],"ability":{"name":"Skill Link","effect":""},"held":{"sprite":"white-herb","name":"White Herb","effect":""},"sprite":"91","types":["water","ice"],"stats":{"hp":50,"atk":95,"def":180,"spa":85,"spd":45,"spe":70}},{"name":"jynx","level":"72","moves":[{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"type":"normal","damage_class":"status","name":"Lovely Kiss","effect":""},{"power":"80","type":"fighting","damage_class":"special","name":"Aura Sphere","effect":""},{"power":80,"type":"psychic","damage_class":"special","name":"Psyshock","effect":""}],"ability":{"name":"Trace","effect":""},"held":{"sprite":"ice-gem","name":"Ice Gem","effect":""},"sprite":"124","types":["ice","psychic"],"stats":{"hp":75,"atk":43,"def":65,"spa":125,"spd":96,"spe":96}}]}
+Missing key in second file:	o9_sun; Expected Value: {"name":"Sun Trainer Elmer","speciality":"","img":"/leaders/blazevolt-elmer","pokemon":[{"name":"torkoal","level":"72","moves":[{"type":"rock","damage_class":"status","name":"Stealth Rock","effect":""},{"type":"normal","damage_class":"status","name":"Yawn","effect":""},{"power":120,"type":"grass","damage_class":"special","name":"Solar Beam","effect":""},{"power":80,"type":"fire","damage_class":"special","name":"Lava Plume","effect":""}],"ability":{"name":"Drought","effect":""},"held":{"sprite":"red-card","name":"Red Card","effect":""},"sprite":"324","types":["fire"],"stats":{"hp":70,"atk":85,"def":140,"spa":85,"spd":70,"spe":20}},{"name":"darmanitan","level":"72","moves":[{"power":120,"type":"fire","damage_class":"physical","name":"Flare Blitz","effect":""},{"power":80,"type":"bug","damage_class":"physical","name":"Lunge","effect":""},{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"power":75,"type":"rock","damage_class":"physical","name":"Rock Slide","effect":""}],"ability":{"name":"Sheer Force","effect":""},"held":{"sprite":"fire-gem","name":"Fire Gem","effect":""},"sprite":"555","types":["fire"],"stats":{"hp":105,"atk":140,"def":55,"spa":30,"spd":55,"spe":95}},{"name":"venusaur","level":"72","moves":[{"power":"75","type":"grass","damage_class":"special","name":"Giga Drain","effect":""},{"type":"normal","damage_class":"status","name":"Growth","effect":""},{"power":50,"type":"normal","damage_class":"special","name":"Weather Ball","effect":""},{"power":90,"type":"ground","damage_class":"special","name":"Earth Power","effect":""}],"ability":{"name":"Chlorophyll","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"3","types":["grass","poison"],"stats":{"hp":80,"atk":87,"def":85,"spa":103,"spd":100,"spe":80}},{"name":"ninetales","level":"72","moves":[{"power":95,"type":"fairy","damage_class":"special","name":"Moonblast","effect":""},{"power":120,"type":"grass","damage_class":"special","name":"Solar Beam","effect":""},{"power":90,"type":"fire","damage_class":"special","name":"Flamethrower","effect":""},{"power":"80","type":"rock","damage_class":"special","name":"Power Gem","effect":""}],"ability":{"name":"Drought","effect":""},"held":{"sprite":"eject-button","name":"Eject Button","effect":""},"sprite":"38","types":["fire","fairy"],"stats":{"hp":73,"atk":67,"def":75,"spa":81,"spd":100,"spe":109}},{"name":"volcarona","level":"72","moves":[{"type":"bug","damage_class":"status","name":"Quiver Dance","effect":""},{"power":80,"type":"fire","damage_class":"special","name":"Fiery Dance","effect":""},{"power":90,"type":"bug","damage_class":"special","name":"Bug Buzz","effect":""},{"power":"75","type":"grass","damage_class":"special","name":"Giga Drain","effect":""}],"ability":{"name":"Flame Body","effect":""},"held":{"sprite":"focus-sash","name":"Focus Sash","effect":""},"sprite":"637","types":["bug","fire"],"stats":{"hp":85,"atk":60,"def":65,"spa":135,"spd":105,"spe":100}},{"name":"victreebel","level":"72","moves":[{"type":"normal","damage_class":"status","name":"Growth","effect":""},{"power":120,"type":"grass","damage_class":"special","name":"Solar Beam","effect":""},{"power":50,"type":"normal","damage_class":"special","name":"Weather Ball","effect":""},{"power":90,"type":"poison","damage_class":"special","name":"Sludge Bomb","effect":""}],"ability":{"name":"Chlorophyll","effect":""},"held":{"sprite":"occa-berry","name":"Occa Berry","effect":""},"sprite":"71","types":["grass","poison"],"stats":{"hp":80,"atk":105,"def":65,"spa":100,"spd":70,"spe":70}}]}
+Missing key in second file:	o9_rain; Expected Value: {"name":"Rain Trainer Porta","speciality":"","img":"/leaders/blazevolt-porta","pokemon":[{"name":"pelipper","level":"72","moves":[{"power":80,"type":"water","damage_class":"special","name":"Scald","effect":""},{"power":"120","type":"flying","damage_class":"special","name":"Hurricane","effect":""},{"power":70,"type":"bug","damage_class":"physical","name":"U-turn","effect":""},{"power":"95","type":"ice","damage_class":"special","name":"Ice Beam","effect":""}],"ability":{"name":"Drizzle","effect":""},"held":{"sprite":"wacan-berry","name":"Wacan Berry","effect":""},"sprite":"279","types":["water","flying"],"stats":{"hp":60,"atk":50,"def":110,"spa":95,"spd":80,"spe":65}},{"name":"seismitoad","level":"72","moves":[{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"power":75,"type":"fighting","damage_class":"physical","name":"Drain Punch","effect":""},{"power":95,"type":"poison","damage_class":"special","name":"Sludge Wave","effect":""},{"power":75,"type":"ice","damage_class":"physical","name":"Ice Punch","effect":""}],"ability":{"name":"Swift Swim","effect":""},"held":{"sprite":"rindo-berry","name":"Rindo Berry","effect":""},"sprite":"537","types":["water","ground"],"stats":{"hp":105,"atk":95,"def":75,"spa":85,"spd":75,"spe":74}},{"name":"electrode","level":"72","moves":[{"power":"120","type":"electric","damage_class":"special","name":"Thunder","effect":""},{"power":"80","type":"fighting","damage_class":"special","name":"Aura Sphere","effect":""},{"power":"80","type":"grass","damage_class":"special","name":"Energy Ball","effect":""},{"power":90,"type":"bug","damage_class":"special","name":"Bug Buzz","effect":""}],"ability":{"name":"Aftermath","effect":""},"held":{"sprite":"air-balloon","name":"Air Balloon","effect":""},"sprite":"101","types":["electric"],"stats":{"hp":60,"atk":50,"def":70,"spa":80,"spd":80,"spe":150}},{"name":"politoed","level":"72","moves":[{"type":"psychic","damage_class":"status","name":"Hypnosis","effect":""},{"power":"120","type":"water","damage_class":"special","name":"Hydro Pump","effect":""},{"power":90,"type":"psychic","damage_class":"special","name":"Psychic","effect":""},{"power":120,"type":"fighting","damage_class":"special","name":"Focus Blast","effect":""}],"ability":{"name":"Drizzle","effect":""},"held":{"sprite":"zoom-lens","name":"Zoom Lens","effect":""},"sprite":"186","types":["water"],"stats":{"hp":90,"atk":75,"def":75,"spa":90,"spd":100,"spe":70}},{"name":"scizor","level":"72","moves":[{"power":100,"type":"water","damage_class":"physical","name":"Crabhammer","effect":""},{"power":40,"type":"steel","damage_class":"physical","name":"Bullet Punch","effect":"","priority":1},{"power":"70","type":"psychic","damage_class":"physical","name":"Psycho Cut","effect":""},{"power":70,"type":"bug","damage_class":"physical","name":"U-turn","effect":""}],"ability":{"name":"Technician","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"212","types":["bug","steel"],"stats":{"hp":70,"atk":130,"def":100,"spa":55,"spd":80,"spe":65}},{"name":"kingdra","level":"72","moves":[{"power":"120","type":"water","damage_class":"special","name":"Hydro Pump","effect":""},{"power":"120","type":"flying","damage_class":"special","name":"Hurricane","effect":""},{"power":"85","type":"dragon","damage_class":"special","name":"Dragon Pulse","effect":""},{"power":"95","type":"ice","damage_class":"special","name":"Ice Beam","effect":""}],"ability":{"name":"Swift Swim","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"230","types":["water","dragon"],"stats":{"hp":75,"atk":95,"def":95,"spa":95,"spd":95,"spe":85}}]}
+Missing key in second file:	o9_sand; Expected Value: {"name":"Sand Trainer Sterline","speciality":"","img":"/leaders/blazevolt-sterline","pokemon":[{"name":"hippowdon","level":"72","moves":[{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"type":"rock","damage_class":"status","name":"Stealth Rock","effect":""},{"power":65,"type":"ice","damage_class":"physical","name":"Ice Fang","effect":""},{"power":100,"type":"rock","damage_class":"physical","name":"Stone Edge","effect":""}],"ability":{"name":"Sand Stream","effect":""},"held":{"sprite":"passho-berry","name":"Passho Berry","effect":""},"sprite":"450","types":["ground"],"stats":{"hp":108,"atk":112,"def":118,"spa":68,"spd":72,"spe":47}},{"name":"garchomp","level":"72","moves":[{"power":"80","type":"dragon","damage_class":"physical","name":"Dragon Claw","effect":""},{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"power":90,"type":"fire","damage_class":"special","name":"Flamethrower","effect":""},{"power":75,"type":"fighting","damage_class":"physical","name":"Brick Break","effect":""}],"ability":{"name":"Rough Skin","effect":""},"held":{"sprite":"yache-berry","name":"Yache Berry","effect":""},"sprite":"445","types":["dragon","ground"],"stats":{"hp":108,"atk":130,"def":95,"spa":80,"spd":85,"spe":102}},{"name":"excadrill","level":"72","moves":[{"power":100,"type":"ground","damage_class":"physical","name":"Earthquake","effect":""},{"power":80,"type":"steel","damage_class":"physical","name":"Iron Head","effect":""},{"type":"normal","damage_class":"status","name":"Swords Dance","effect":""},{"power":80,"type":"bug","damage_class":"physical","name":"X-Scissor","effect":""}],"ability":{"name":"Sand Rush","effect":""},"held":{"sprite":"air-balloon","name":"Air Balloon","effect":""},"sprite":"530","types":["ground","steel"],"stats":{"hp":110,"atk":135,"def":60,"spa":50,"spd":65,"spe":88}},{"name":"tyranitar","level":"72","moves":[{"type":"rock","damage_class":"status","name":"Rock Polish","effect":""},{"power":100,"type":"rock","damage_class":"physical","name":"Stone Edge","effect":""},{"power":80,"type":"dark","damage_class":"physical","name":"Crunch","effect":""},{"power":60,"type":"flying","damage_class":"physical","name":"Aerial Ace","effect":""}],"ability":{"name":"Sand Stream","effect":""},"held":{"sprite":"chople-berry","name":"Chople Berry","effect":""},"sprite":"248","types":["rock","dark"],"stats":{"hp":100,"atk":134,"def":110,"spa":95,"spd":100,"spe":61}},{"name":"clefable","level":"72","moves":[{"power":75,"type":"fire","damage_class":"special","name":"Mystical Fire","effect":""},{"power":"50","type":"fairy","damage_class":"special","name":"Draining Kiss","effect":""},{"type":"grass","damage_class":"special","name":"Grass Knot","effect":""},{"power":"80","type":"rock","damage_class":"special","name":"Power Gem","effect":""}],"ability":{"name":"Magic Guard","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"36","types":["fairy"],"stats":{"hp":95,"atk":70,"def":73,"spa":95,"spd":90,"spe":60}},{"name":"nidoking","level":"72","moves":[{"power":"95","type":"electric","damage_class":"special","name":"Thunderbolt","effect":""},{"power":"95","type":"ice","damage_class":"special","name":"Ice Beam","effect":""},{"power":95,"type":"poison","damage_class":"special","name":"Sludge Wave","effect":""},{"power":90,"type":"ground","damage_class":"special","name":"Earth Power","effect":""}],"ability":{"name":"Sheer Force","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"34","types":["poison","ground"],"stats":{"hp":81,"atk":102,"def":77,"spa":85,"spd":75,"spe":85}}]}
+Missing key in second file:	o9_c.pokemon.1.stats.spa; Expected Value: 109
+Missing key in second file:	o9_c.pokemon.1.stats.spe; Expected Value: 100
+Difference at o9_c.pokemon.3.moves.3.power:
+  First: "120"
+  Second: 110
+Difference at 1_c.pokemon.5.moves.3.power:
+  First: "50"
+  Second: 60
+Difference at 2_c.pokemon.1.moves.2.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	2_c.pokemon.3.stats.hp; Expected Value: 65
+Missing key in second file:	2_c.pokemon.3.stats.atk; Expected Value: 95
+Missing key in second file:	2_c.pokemon.3.stats.spd; Expected Value: 55
+Difference at 2_c.pokemon.4.moves.1.power:
+  First: "50"
+  Second: 65
+Missing key in second file:	3_c.pokemon.1.stats.spa; Expected Value: 65
+Missing key in second file:	3_c.pokemon.2.stats.spd; Expected Value: 65
+Difference at 4_c.pokemon.0.moves.2.power:
+  First: "55"
+  Second: 60
+Missing key in second file:	4_c.pokemon.1.stats.hp; Expected Value: 70
+Missing key in second file:	4_c.pokemon.1.stats.atk; Expected Value: 60
+Missing key in second file:	4_c.pokemon.1.stats.spa; Expected Value: 100
+Missing key in second file:	4_c.pokemon.3.stats.def; Expected Value: 102
+Missing key in second file:	4_c.pokemon.3.stats.spa; Expected Value: 80
+Missing key in second file:	4_c.pokemon.3.stats.spd; Expected Value: 102
+Missing key in second file:	4_c.pokemon.3.stats.spe; Expected Value: 40
+Difference at 4_c.pokemon.4.moves.2.power:
+  First: "60"
+  Second: 65
+Difference at 5_c.pokemon.3.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at 6_c.pokemon.0.moves.2.power:
+  First: "80"
+  Second: 90
+Difference at 6_c.pokemon.1.moves.0.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	6_c.pokemon.1.stats.hp; Expected Value: 125
+Missing key in second file:	6_c.pokemon.1.stats.atk; Expected Value: 58
+Missing key in second file:	6_c.pokemon.1.stats.def; Expected Value: 58
+Missing key in second file:	6_c.pokemon.1.stats.spe; Expected Value: 67
+Difference at 6_c.pokemon.3.moves.2.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	6_c.pokemon.3.stats.hp; Expected Value: 60
+Missing key in second file:	6_c.pokemon.3.stats.def; Expected Value: 55
+Missing key in second file:	6_c.pokemon.3.stats.spd; Expected Value: 80
+Missing key in second file:	6_c.pokemon.3.stats.spe; Expected Value: 110
+Difference at 6_c.pokemon.4.moves.0.power:
+  First: "95"
+  Second: 90
+Difference at 7_c.pokemon.0.moves.1.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	7_c.pokemon.2.stats.atk; Expected Value: 109
+Missing key in second file:	7_c.pokemon.2.stats.spd; Expected Value: 85
+Difference at 7_c.pokemon.4.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at 7_c.pokemon.4.moves.3.power:
+  First: "95"
+  Second: 90
+Difference at 8_c.pokemon.0.moves.0.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	8_c.pokemon.0.stats.hp; Expected Value: 75
+Missing key in second file:	8_c.pokemon.0.stats.atk; Expected Value: 55
+Missing key in second file:	8_c.pokemon.0.stats.def; Expected Value: 70
+Missing key in second file:	8_c.pokemon.0.stats.spd; Expected Value: 95
+Missing key in second file:	8_c.pokemon.0.stats.spe; Expected Value: 110
+Difference at 8_c.pokemon.2.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	8_c.pokemon.2.stats.hp; Expected Value: 83
+Missing key in second file:	8_c.pokemon.2.stats.spd; Expected Value: 70
+Missing key in second file:	8_c.pokemon.2.stats.spe; Expected Value: 101
+Difference at 8_c.pokemon.4.moves.2.power:
+  First: "120"
+  Second: 110
+Difference at 8_c.pokemon.5.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at 8_c.pokemon.5.moves.1.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	9_c.pokemon.0.stats.spa; Expected Value: 109
+Missing key in second file:	9_c.pokemon.0.stats.spe; Expected Value: 100
+Difference at 9_c.pokemon.1.moves.1.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	9_c.pokemon.3.stats.spe; Expected Value: 100
+Missing key in second file:	9_c.pokemon.5.stats.hp; Expected Value: 70
+Missing key in second file:	9_c.pokemon.5.stats.spe; Expected Value: 120
+Missing key in second file:	10_c.pokemon.0.stats.hp; Expected Value: 90
+Missing key in second file:	10_c.pokemon.0.stats.def; Expected Value: 95
+Missing key in second file:	10_c.pokemon.0.stats.spd; Expected Value: 90
+Missing key in second file:	10_c.pokemon.0.stats.spe; Expected Value: 70
+Difference at 10_c.pokemon.1.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at 10_c.pokemon.1.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at 10_c.pokemon.2.moves.2.power:
+  First: "20"
+  Second: 80
+Difference at 10_c.pokemon.3.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at 10_c.pokemon.3.moves.2.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	10_c.pokemon.3.stats.hp; Expected Value: 60
+Missing key in second file:	10_c.pokemon.3.stats.atk; Expected Value: 50
+Missing key in second file:	10_c.pokemon.3.stats.spa; Expected Value: 95
+Missing key in second file:	10_c.pokemon.3.stats.spe; Expected Value: 65
+Difference at 10_c.pokemon.4.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at 10_c.pokemon.4.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at 10_c.pokemon.4.moves.3.power:
+  First: "95"
+  Second: 90
+Difference at 10_c.pokemon.5.moves.0.power:
+  First: "95"
+  Second: 90
+Difference at 10_c.pokemon.5.moves.2.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	col1; Expected Value: {"name":"Colress","speciality":"","img":"/leaders/blwh-colress","pokemon":[{"name":"magnemite","level":"26","moves":[{"power":70,"type":"electric","damage_class":"special","name":"Volt Switch","effect":""},{"power":"80","type":"steel","damage_class":"special","name":"Flash Cannon","effect":""},{"type":"electric","damage_class":"status","name":"Thunder Wave","effect":""},{"power":75,"type":"bug","damage_class":"special","name":"Signal Beam","effect":""}],"ability":{"name":"Sturdy","effect":""},"held":{"sprite":"air-balloon","name":"Air Balloon","effect":""},"sprite":"81","types":["electric","steel"],"stats":{"hp":25,"atk":35,"def":70,"spa":95,"spd":55,"spe":45}},{"name":"rotom","level":"26","moves":[{"power":75,"type":"bug","damage_class":"special","name":"Signal Beam","effect":""},{"power":75,"type":"flying","damage_class":"special","name":"Air Slash","effect":""},{"power":80,"type":"dark","damage_class":"special","name":"Dark Pulse","effect":""},{"power":"95","type":"electric","damage_class":"special","name":"Thunderbolt","effect":""}],"ability":{"name":"Motor Drive","effect":""},"held":{"sprite":"wise-glasses","name":"Wise Glasses","effect":""},"icon":"rotom-fan","sprite":"10011","types":["electric","flying"],"stats":{"hp":50,"atk":65,"def":107,"spa":105,"spd":107,"spe":86}},{"name":"klink","level":"26","moves":[{"type":"steel","damage_class":"status","name":"Autotomize","effect":""},{"power":"50","type":"steel","damage_class":"physical","name":"Gear Grind","effect":""},{"power":90,"type":"electric","damage_class":"physical","name":"Wild Charge","effect":""},{"power":"60","type":"fire","damage_class":"physical","name":"Flame Wheel","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"599","types":["steel"],"stats":{"hp":40,"atk":55,"def":70,"spa":45,"spd":60,"spe":30}},{"name":"metang","level":"26","moves":[{"power":40,"type":"steel","damage_class":"physical","name":"Bullet Punch","effect":"","priority":1},{"power":"50","type":"rock","damage_class":"physical","name":"Rock Tomb","effect":""},{"power":80,"type":"psychic","damage_class":"physical","name":"Zen Headbutt","effect":""},{"power":60,"type":"ground","damage_class":"physical","name":"Bulldoze","effect":""}],"ability":{"name":"Clear Body","effect":""},"held":{"sprite":"occa-berry","name":"Occa Berry","effect":""},"sprite":"375","types":["steel","psychic"],"stats":{"hp":60,"atk":75,"def":100,"spa":55,"spd":80,"spe":50}},{"name":"porygon2","level":"28","moves":[{"type":"normal","damage_class":"status","name":"Recover","effect":""},{"power":80,"type":"normal","damage_class":"special","name":"Tri Attack","effect":""},{"power":50,"type":"electric","damage_class":"special","name":"Charge Beam","effect":""},{"power":80,"type":"psychic","damage_class":"special","name":"Psyshock","effect":""}],"ability":{"name":"Trace","effect":""},"held":{"sprite":"eviolite","name":"Eviolite","effect":""},"sprite":"233","types":["normal"],"stats":{"hp":85,"atk":80,"def":90,"spa":105,"spd":95,"spe":60}}]}
+Missing key in second file:	col2_c.pokemon.0.imgUrl; Expected Value: "/blazevolt/mt"
+Missing key in second file:	col2_c.pokemon.1.imgUrl; Expected Value: "/blazevolt/ufo"
+Difference at col2_c.pokemon.2.name:
+  First: "f00"
+  Second: "f-00"
+Missing key in second file:	col2_c.pokemon.2.imgUrl; Expected Value: "/blazevolt/f00"
+Missing key in second file:	col2_c.pokemon.3.imgUrl; Expected Value: "/blazevolt/mt2"
+Difference at col3_c.pokemon.1.name:
+  First: "rotom"
+  Second: "rotom-wash"
+Difference at col3_c.pokemon.1.moves.2.power:
+  First: "120"
+  Second: 110
+Difference at col3_c.pokemon.1.moves.3.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	col3_c.pokemon.1.icon; Expected Value: "rotom-wash"
+Difference at col3_c.pokemon.2.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at col3_c.pokemon.4.moves.1.power:
+  First: "95"
+  Second: 90
+Difference at col3_c.pokemon.4.moves.3.power:
+  First: "95"
+  Second: 90
+Difference at ghetsis_c.pokemon.0.moves.3.power:
+  First: "50"
+  Second: 65
+Difference at ghetsis_c.pokemon.4.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at ghetsis_c.pokemon.4.moves.3.power:
+  First: "95"
+  Second: 90
+Missing key in second file:	rood; Expected Value: {"name":"Rood","speciality":"","img":"/leaders/blwh-rood","pokemon":[{"name":"bouffalant","level":"41","moves":[{"power":120,"type":"normal","damage_class":"physical","name":"Head Charge","effect":""},{"power":80,"type":"psychic","damage_class":"physical","name":"Zen Headbutt","effect":""},{"power":90,"type":"electric","damage_class":"physical","name":"Wild Charge","effect":""},{"power":120,"type":"fighting","damage_class":"physical","name":"Close Combat","effect":""}],"ability":{"name":"Reckless","effect":""},"held":{"sprite":"chople-berry","name":"Chople Berry","effect":""},"sprite":"626","types":["normal"],"stats":{"hp":95,"atk":110,"def":95,"spa":40,"spd":95,"spe":55}},{"name":"zoroark","level":"41","moves":[{"power":80,"type":"psychic","damage_class":"special","name":"Extrasensory","effect":""},{"type":"grass","damage_class":"special","name":"Grass Knot","effect":""},{"power":"80","type":"dark","damage_class":"physical","name":"Sucker Punch","effect":"","priority":1},{"power":70,"type":"bug","damage_class":"physical","name":"U-turn","effect":""}],"ability":{"name":"Illusion","effect":""},"held":{"sprite":"focus-sash","name":"Focus Sash","effect":""},"sprite":"571","types":["dark"],"stats":{"hp":60,"atk":105,"def":60,"spa":120,"spd":60,"spe":105}},{"name":"swoobat","level":"41","moves":[{"type":"dark","damage_class":"status","name":"Nasty Plot","effect":""},{"power":20,"type":"psychic","damage_class":"special","name":"Stored Power","effect":""},{"power":75,"type":"flying","damage_class":"special","name":"Air Slash","effect":""},{"power":"75","type":"grass","damage_class":"special","name":"Giga Drain","effect":""}],"ability":{"name":"Simple","effect":""},"held":{"sprite":"sitrus-berry","name":"Sitrus Berry","effect":""},"sprite":"528","types":["psychic","flying"],"stats":{"hp":67,"atk":57,"def":55,"spa":77,"spd":55,"spe":114}},{"name":"stoutland","level":"41","moves":[{"power":"80","type":"normal","damage_class":"physical","name":"Strength","effect":""},{"power":65,"type":"fire","damage_class":"physical","name":"Fire Fang","effect":""},{"power":65,"type":"ice","damage_class":"physical","name":"Ice Fang","effect":""},{"power":65,"type":"electric","damage_class":"physical","name":"Thunder Fang","effect":""}],"ability":{"name":"Intimidate","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"508","types":["normal"],"stats":{"hp":85,"atk":110,"def":90,"spa":45,"spd":90,"spe":80}},{"name":"chandelure","level":"41","moves":[{"power":"80","type":"grass","damage_class":"special","name":"Energy Ball","effect":""},{"power":80,"type":"ghost","damage_class":"special","name":"Shadow Ball","effect":""},{"power":75,"type":"fire","damage_class":"special","name":"Mystical Fire","effect":""},{"power":80,"type":"dark","damage_class":"special","name":"Dark Pulse","effect":""}],"ability":{"name":"Flash Fire","effect":""},"held":{"sprite":"passho-berry","name":"Passho Berry","effect":""},"sprite":"609","types":["ghost","fire"],"stats":{"hp":60,"atk":55,"def":90,"spa":145,"spd":90,"spe":80}}]}
+Missing key in second file:	zinz1; Expected Value: {"name":"Zinzolin & Grunt","speciality":"","img":"/leaders/blwh-zinzolin-grunt","pokemon":[{"name":"cryogonal","level":"54","moves":[{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"type":"ice","damage_class":"status","name":"Hail","effect":""},{"power":80,"type":"fairy","damage_class":"special","name":"Dazzling Gleam","effect":""},{"power":250,"type":"normal","damage_class":"physical","name":"Explosion","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"focus-sash","name":"Focus Sash","effect":""},"sprite":"615","types":["ice"],"stats":{"hp":80,"atk":50,"def":50,"spa":95,"spd":135,"spe":105}},{"name":"swalot","level":"54","moves":[{"power":40,"type":"poison","damage_class":"special","name":"Acid Spray","effect":""},{"type":"poison","damage_class":"status","name":"Toxic","effect":""},{"type":"normal","damage_class":"status","name":"Stockpile","effect":""},{"type":"ghost","damage_class":"status","name":"Destiny Bond","effect":""}],"ability":{"name":"Liquid Ooze","effect":""},"sprite":"317","types":["poison"],"stats":{"hp":100,"atk":73,"def":83,"spa":73,"spd":83,"spe":55}},{"name":"walrein","level":"54","moves":[{"power":65,"type":"water","damage_class":"special","name":"Brine","effect":""},{"type":"normal","damage_class":"status","name":"Protect","effect":"","priority":4},{"type":"normal","damage_class":"status","name":"Substitute","effect":""},{"type":"poison","damage_class":"status","name":"Toxic","effect":""}],"ability":{"name":"Ice Body","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"365","types":["ice","water"],"stats":{"hp":110,"atk":80,"def":90,"spa":95,"spd":90,"spe":65}},{"name":"delibird","level":"54","moves":[{"power":55,"type":"ice","damage_class":"special","name":"Icy Wind","effect":""},{"power":"60","type":"ice","damage_class":"special","name":"Frost Breath","effect":""},{"power":55,"type":"flying","damage_class":"physical","name":"Acrobatics","effect":""},{"type":"flying","damage_class":"status","name":"Tailwind","effect":""}],"ability":{"name":"Technician","effect":""},"sprite":"225","types":["ice","flying"],"stats":{"hp":55,"atk":95,"def":65,"spa":65,"spd":65,"spe":95}},{"name":"weavile","level":"56","moves":[{"power":70,"type":"dark","damage_class":"physical","name":"Night Slash","effect":""},{"power":75,"type":"ice","damage_class":"physical","name":"Ice Punch","effect":""},{"power":40,"type":"normal","damage_class":"physical","name":"Fake Out","effect":"","priority":3},{"type":"fighting","damage_class":"physical","name":"Low Kick","effect":""}],"ability":{"name":"Pressure","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"461","types":["dark","ice"],"stats":{"hp":70,"atk":120,"def":65,"spa":45,"spd":85,"spe":125}}],"doubleBattle":true}
+Missing key in second file:	zinz2; Expected Value: {"name":"Zinzolin & Grunt","speciality":"","img":"/leaders/blwh-zinzolin-grunt","pokemon":[{"name":"abomasnow","level":"59","moves":[{"power":120,"type":"grass","damage_class":"physical","name":"Wood Hammer","effect":""},{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"power":120,"type":"fighting","damage_class":"special","name":"Focus Blast","effect":""},{"power":75,"type":"electric","damage_class":"physical","name":"Thunder Punch","effect":""}],"ability":{"name":"Snow Warning","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"460","types":["grass","ice"],"stats":{"hp":90,"atk":92,"def":75,"spa":92,"spd":85,"spe":60}},{"name":"cryogonal","level":"59","moves":[{"power":"120","type":"ice","damage_class":"special","name":"Blizzard","effect":""},{"type":"psychic","damage_class":"status","name":"Reflect","effect":""},{"type":"psychic","damage_class":"status","name":"Light Screen","effect":""},{"power":250,"type":"normal","damage_class":"physical","name":"Explosion","effect":""}],"ability":{"name":"Levitate","effect":""},"held":{"sprite":"light-clay","name":"Light Clay","effect":""},"sprite":"615","types":["ice"],"stats":{"hp":80,"atk":50,"def":50,"spa":95,"spd":135,"spe":105}},{"name":"walrein","level":"59","moves":[{"power":"95","type":"water","damage_class":"special","name":"Surf","effect":""},{"type":"normal","damage_class":"status","name":"Protect","effect":"","priority":4},{"type":"normal","damage_class":"status","name":"Substitute","effect":""},{"type":"poison","damage_class":"status","name":"Toxic","effect":""}],"ability":{"name":"Ice Body","effect":""},"held":{"sprite":"leftovers","name":"Leftovers","effect":""},"sprite":"365","types":["ice","water"],"stats":{"hp":110,"atk":80,"def":90,"spa":95,"spd":90,"spe":65}},{"name":"weavile","level":"60","moves":[{"power":70,"type":"dark","damage_class":"physical","name":"Night Slash","effect":""},{"power":75,"type":"ice","damage_class":"physical","name":"Ice Punch","effect":""},{"power":40,"type":"normal","damage_class":"physical","name":"Fake Out","effect":"","priority":3},{"power":40,"type":"ice","damage_class":"physical","name":"Ice Shard","effect":"","priority":1}],"ability":{"name":"Pressure","effect":""},"held":{"sprite":"focus-sash","name":"Focus Sash","effect":""},"sprite":"461","types":["dark","ice"],"stats":{"hp":70,"atk":120,"def":65,"spa":45,"spd":85,"spe":125}},{"name":"drifblim","level":"59","moves":[{"power":55,"type":"flying","damage_class":"physical","name":"Acrobatics","effect":""},{"power":80,"type":"ghost","damage_class":"special","name":"Shadow Ball","effect":""},{"power":"95","type":"electric","damage_class":"special","name":"Thunderbolt","effect":""},{"type":"ghost","damage_class":"status","name":"Destiny Bond","effect":""}],"ability":{"name":"Unburden","effect":""},"held":{"sprite":"flying-gem","name":"Flying Gem","effect":""},"sprite":"426","types":["ghost","flying"],"stats":{"hp":150,"atk":80,"def":44,"spa":90,"spd":54,"spe":80}}],"doubleBattle":true}
+Difference at zinz3_c.pokemon.0.moves.0.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	zinz3_c.pokemon.1.stats.hp; Expected Value: 65
+Missing key in second file:	zinz3_c.pokemon.1.stats.atk; Expected Value: 95
+Missing key in second file:	zinz3_c.pokemon.1.stats.spd; Expected Value: 55
+Difference at zinz3_c.pokemon.2.moves.2.power:
+  First: "95"
+  Second: 90
+Difference at zinz3_c.pokemon.4.moves.0.power:
+  First: "20"
+  Second: 65
+Difference at zinz3_c.pokemon.5.moves.3.power:
+  First: "20"
+  Second: 65
+Difference at zinz4_c.pokemon.0.moves.1.power:
+  First: "120"
+  Second: 110
+Difference at zinz4_c.pokemon.1.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at zinz4_c.pokemon.2.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at zinz4_c.pokemon.2.moves.1.power:
+  First: "50"
+  Second: 65
+Difference at zinz4_c.pokemon.4.moves.0.power:
+  First: "120"
+  Second: 110
+Difference at benga_c.pokemon.2.moves.2.power:
+  First: "80"
+  Second: 70
+Difference at benga_c.pokemon.4.moves.2.power:
+  First: "20"
+  Second: 65
+Missing key in second file:	charles; Expected Value: {"name":"Charles","speciality":"","img":"/leaders/blwh-charles","pokemon":[{"name":"accelgor","level":"37","moves":[{"power":90,"type":"bug","damage_class":"special","name":"Bug Buzz","effect":""},{"type":"fighting","damage_class":"special","name":"Final Gambit","effect":""},{"power":"75","type":"grass","damage_class":"special","name":"Giga Drain","effect":""},{"power":90,"type":"poison","damage_class":"special","name":"Sludge Bomb","effect":""}],"ability":{"name":"Infiltrator","effect":""},"held":{"sprite":"charti-berry","name":"Charti Berry","effect":""},"sprite":"617","types":["bug"],"stats":{"hp":80,"atk":70,"def":40,"spa":100,"spd":60,"spe":145}},{"name":"sigilyph","level":"37","moves":[{"power":"55","type":"flying","damage_class":"special","name":"Air Cutter","effect":""},{"power":"75","type":"psychic","damage_class":"special","name":"Esper Wing","effect":""},{"power":55,"type":"ice","damage_class":"special","name":"Icy Wind","effect":""},{"power":"95","type":"fire","damage_class":"special","name":"Heat Wave","effect":""}],"ability":{"name":"Tinted Lens","effect":""},"held":{"sprite":"twisted-spoon","name":"Twisted Spoon","effect":""},"sprite":"561","types":["psychic","flying"],"stats":{"hp":72,"atk":58,"def":80,"spa":103,"spd":80,"spe":97}},{"name":"krokorok","level":"37","moves":[{"power":95,"type":"dark","damage_class":"physical","name":"Foul Play","effect":""},{"power":95,"type":"ground","damage_class":"physical","name":"High Horsepower","effect":""},{"power":75,"type":"rock","damage_class":"physical","name":"Rock Slide","effect":""},{"power":65,"type":"electric","damage_class":"physical","name":"Thunder Fang","effect":""}],"ability":{"name":"Intimidate","effect":""},"held":{"sprite":"rocky-helmet","name":"Rocky Helmet","effect":""},"sprite":"552","types":["ground","dark"],"stats":{"hp":60,"atk":82,"def":45,"spa":45,"spd":45,"spe":74}},{"name":"druddigon","level":"37","moves":[{"power":100,"type":"dragon","damage_class":"physical","name":"Dragon Rush","effect":""},{"power":75,"type":"electric","damage_class":"physical","name":"Thunder Punch","effect":""},{"power":"90","type":"rock","damage_class":"physical","name":"Rock Climb","effect":""},{"type":"normal","damage_class":"status","name":"Glare","effect":""}],"ability":{"name":"Sheer Force","effect":""},"held":{"sprite":"life-orb","name":"Life Orb","effect":""},"sprite":"621","types":["dragon"],"stats":{"hp":77,"atk":120,"def":90,"spa":60,"spd":90,"spe":48}},{"name":"bouffalant","level":"37","moves":[{"power":120,"type":"normal","damage_class":"physical","name":"Head Charge","effect":""},{"power":90,"type":"electric","damage_class":"physical","name":"Wild Charge","effect":""},{"power":120,"type":"bug","damage_class":"physical","name":"Megahorn","effect":""},{"power":95,"type":"ground","damage_class":"physical","name":"High Horsepower","effect":""}],"ability":{"name":"Reckless","effect":""},"held":{"sprite":"sitrus-berry","name":"Sitrus Berry","effect":""},"sprite":"626","types":["normal"],"stats":{"hp":95,"atk":110,"def":95,"spa":40,"spd":95,"spe":55}},{"name":"crustle","level":"37","moves":[{"power":75,"type":"rock","damage_class":"physical","name":"Rock Slide","effect":""},{"power":40,"type":"rock","damage_class":"physical","name":"Accelerock","effect":"","priority":1},{"type":"normal","damage_class":"status","name":"Shell Smash","effect":""},{"power":80,"type":"bug","damage_class":"physical","name":"X-Scissor","effect":""}],"ability":{"name":"Sturdy","effect":""},"held":{"sprite":"custap-berry","name":"Custap Berry","effect":""},"sprite":"558","types":["bug","rock"],"stats":{"hp":70,"atk":105,"def":125,"spa":65,"spd":75,"spe":45}}]}
+Missing key in second file:	e1_c.pokemon.0.stats.hp; Expected Value: 50
+Missing key in second file:	e1_c.pokemon.0.stats.spe; Expected Value: 50
+Difference at e1_c.pokemon.1.moves.3.power:
+  First: "80"
+  Second: 90
+Difference at e1_c.pokemon.5.moves.3.power:
+  First: "80"
+  Second: 90
+Difference at e2_c.pokemon.0.moves.1.power:
+  First: "20"
+  Second: 65
+Difference at e2_c.pokemon.5.moves.0.power:
+  First: "40"
+  Second: 60
+Difference at e3_c.pokemon.1.moves.1.power:
+  First: "95"
+  Second: 90
+Difference at e3_c.pokemon.1.moves.2.power:
+  First: "120"
+  Second: 110
+Difference at e3_c.pokemon.3.name:
+  First: "darmanitan"
+  Second: "darmanitan-zen"
+Missing key in second file:	e3_c.pokemon.3.sprite; Expected Value: "10017"
+Missing key in second file:	e3_c.pokemon.3.types; Expected Value: ["fire","psychic"]
+Missing key in second file:	e3_c.pokemon.3.stats; Expected Value: {"hp":105,"atk":30,"def":105,"spa":140,"spd":105,"spe":55}
+Missing key in second file:	e3_c.pokemon.4.stats.hp; Expected Value: 65
+Missing key in second file:	e3_c.pokemon.4.stats.def; Expected Value: 70
+Missing key in second file:	e3_c.pokemon.4.stats.spe; Expected Value: 95
+Missing key in second file:	e4_c.pokemon.1.stats.hp; Expected Value: 76
+Missing key in second file:	e4_c.pokemon.1.stats.atk; Expected Value: 104
+Missing key in second file:	e4_c.pokemon.1.stats.def; Expected Value: 71
+Missing key in second file:	e4_c.pokemon.1.stats.spa; Expected Value: 104
+Missing key in second file:	e4_c.pokemon.1.stats.spd; Expected Value: 71
+Difference at e4_c.pokemon.2.moves.3.power:
+  First: "50"
+  Second: 60
+Difference at champ_c.pokemon.0.moves.0.power:
+  First: "140"
+  Second: 130
+Difference at champ_c.pokemon.0.moves.1.power:
+  First: "140"
+  Second: 130
+Difference at champ_c.pokemon.2.moves.1.power:
+  First: "95"
+  Second: 90
+Difference at champ_c.pokemon.2.moves.3.power:
+  First: "120"
+  Second: 110
+Missing key in second file:	champ_c.pokemon.2.stats.hp; Expected Value: 84
+Missing key in second file:	champ_c.pokemon.2.stats.def; Expected Value: 88
+Missing key in second file:	champ_c.pokemon.2.stats.spa; Expected Value: 111
+Missing key in second file:	champ_c.pokemon.2.stats.spd; Expected Value: 101
+Missing key in second file:	champ_c.pokemon.2.stats.spe; Expected Value: 60
+Difference at champ_c.pokemon.3.moves.2.power:
+  First: "80"
+  Second: 90
+Difference at champ_c.pokemon.5.moves.3.power:
+  First: "75"
+  Second: 80

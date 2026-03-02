@@ -1,0 +1,2 @@
+First File: ../nuzlocke.app/static/api/league/crys.water.json
+Second File: ../nuzlocke.data/final/crys.water.json

@@ -1,0 +1,139 @@
+First File: ../nuzlocke.app/static/api/league/emrunbun.fire.json
+Second File: ../nuzlocke.data/final/emrunbun.fire.json
+Differences found (85):
+
+Difference at 1.pokemon.4.moves.2.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Grass"
+Difference at 2.pokemon.1.name:
+  First: "zygarde"
+  Second: "zygarde-10"
+Missing key in second file:	2.pokemon.1.sprite; Expected Value: "718"
+Missing key in second file:	2.pokemon.1.types; Expected Value: ["dragon","ground"]
+Missing key in second file:	2.pokemon.1.stats; Expected Value: {"hp":54,"atk":100,"def":71,"spa":61,"spd":85,"spe":115}
+Difference at 3.pokemon.0.moves.3.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Grass"
+Difference at 3.pokemon.2.name:
+  First: "rotom"
+  Second: "rotom-fan"
+Missing key in second file:	3.pokemon.2.icon; Expected Value: "rotom-fan"
+Missing key in second file:	4.pokemon.3.icon; Expected Value: "meloetta-aria"
+Difference at 4.pokemon.5.moves.3.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Grass"
+Missing key in second file:	5.pokemon.5.icon; Expected Value: "marowak-alola"
+Difference at 6.pokemon.4.name:
+  First: "shaymin"
+  Second: "shaymin-sky"
+Missing key in second file:	6.pokemon.4.sprite; Expected Value: "10006"
+Missing key in second file:	6.pokemon.4.types; Expected Value: ["grass","flying"]
+Missing key in second file:	6.pokemon.4.stats; Expected Value: {"hp":100,"atk":103,"def":75,"spa":120,"spd":75,"spe":127}
+Difference at 7.pokemon.7.name:
+  First: "hoopa"
+  Second: "hoopa-unbound"
+Missing key in second file:	7.pokemon.7.sprite; Expected Value: "10086"
+Missing key in second file:	7.pokemon.7.types; Expected Value: ["psychic","dark"]
+Missing key in second file:	7.pokemon.7.stats; Expected Value: {"hp":80,"atk":160,"def":60,"spa":170,"spd":130,"spe":80}
+Missing key in second file:	8.pokemon.4.icon; Expected Value: "basculegion-male"
+Difference at aq4.pokemon.3.name:
+  First: "tornadus"
+  Second: "tornadus-therian"
+Missing key in second file:	aq4.pokemon.3.icon; Expected Value: "tornadus-therian"
+Missing key in second file:	aq4.pokemon.3.types; Expected Value: ["flying"]
+Missing key in second file:	aq4.pokemon.3.stats; Expected Value: {"hp":79,"atk":100,"def":80,"spa":110,"spd":90,"spe":121}
+Difference at aq5.pokemon.2.name:
+  First: "rotom"
+  Second: "rotom-frost"
+Missing key in second file:	aq5.pokemon.2.icon; Expected Value: "rotom-frost"
+Difference at mg2.pokemon.1.moves.1.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Ice"
+Difference at mg3.pokemon.0.name:
+  First: "landorus"
+  Second: "landorus-therian"
+Missing key in second file:	mg3.pokemon.0.icon; Expected Value: "landorus-therian"
+Missing key in second file:	mg3.pokemon.0.types; Expected Value: ["ground","flying"]
+Missing key in second file:	mg3.pokemon.0.stats; Expected Value: {"hp":89,"atk":145,"def":90,"spa":105,"spd":80,"spe":91}
+Difference at aq7.pokemon.3.name:
+  First: "aegislash"
+  Second: "aegislash-blade"
+Difference at aq7.pokemon.3.moves.3.name:
+  First: "King’s Shield"
+  Second: "King's Shield"
+Missing key in second file:	aq7.pokemon.3.icon; Expected Value: "aegislash-blade"
+Missing key in second file:	aq7.pokemon.3.types; Expected Value: ["steel","ghost"]
+Missing key in second file:	aq7.pokemon.3.stats; Expected Value: {"hp":60,"atk":140,"def":50,"spa":140,"spd":50,"spe":60}
+Difference at r1.pokemon.0.name:
+  First: "indeedee"
+  Second: "indeedee-female"
+Missing key in second file:	r1.pokemon.0.sprite; Expected Value: "10186"
+Missing key in second file:	r1.pokemon.0.types; Expected Value: ["psychic","normal"]
+Missing key in second file:	r1.pokemon.0.stats; Expected Value: {"hp":70,"atk":55,"def":65,"spa":95,"spd":105,"spe":85}
+Missing key in second file:	r2.pokemon.5.icon; Expected Value: "exeggutor-alola"
+Missing key in second file:	r3.pokemon.4.icon; Expected Value: "zapdos-galar"
+Difference at w1.pokemon.1.moves.3.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Fire"
+Difference at mb1.pokemon.3.moves.3.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Grass"
+Missing key in second file:	mb1.pokemon.4.icon; Expected Value: "slowbro-galar"
+Difference at mb3.pokemon.0.name:
+  First: "indeedee"
+  Second: "indeedee-female"
+Missing key in second file:	mb3.pokemon.0.sprite; Expected Value: "10186"
+Missing key in second file:	mb3.pokemon.0.types; Expected Value: ["psychic","normal"]
+Missing key in second file:	mb3.pokemon.0.stats; Expected Value: {"hp":70,"atk":55,"def":65,"spa":95,"spd":105,"spe":85}
+Missing key in second file:	ed1.pokemon.1.icon; Expected Value: "articuno-galar"
+Missing key in second file:	e2.pokemon.1.icon; Expected Value: "zoroark-hisui"
+Missing key in second file:	ed2.pokemon.0.icon; Expected Value: "decidueye-hisui"
+Difference at ed2.pokemon.4.name:
+  First: "giratina"
+  Second: "giratina-origin"
+Missing key in second file:	ed2.pokemon.4.sprite; Expected Value: "10007"
+Missing key in second file:	ed2.pokemon.4.types; Expected Value: ["ghost","dragon"]
+Missing key in second file:	ed2.pokemon.4.stats; Expected Value: {"hp":150,"atk":120,"def":100,"spa":120,"spd":100,"spe":90}
+Difference at e3.pokemon.3.name:
+  First: "enamorus"
+  Second: "enamorus-therian"
+Missing key in second file:	e3.pokemon.3.sprite; Expected Value: "10249"
+Missing key in second file:	e3.pokemon.3.types; Expected Value: ["fairy","flying"]
+Missing key in second file:	e3.pokemon.3.stats; Expected Value: {"hp":74,"atk":115,"def":110,"spa":135,"spd":100,"spe":46}
+Difference at e3.pokemon.4.name:
+  First: "kyurem"
+  Second: "kyurem-white"
+Missing key in second file:	e3.pokemon.4.sprite; Expected Value: "10023"
+Missing key in second file:	e3.pokemon.4.types; Expected Value: ["dragon","ice"]
+Missing key in second file:	e3.pokemon.4.stats; Expected Value: {"hp":125,"atk":120,"def":90,"spa":170,"spd":100,"spe":95}
+Difference at e3.pokemon.5.name:
+  First: "calyrex"
+  Second: "calyrex-ice"
+Missing key in second file:	e3.pokemon.5.icon; Expected Value: "calyrex-ice"
+Missing key in second file:	e3.pokemon.5.types; Expected Value: ["psychic","ice"]
+Missing key in second file:	e3.pokemon.5.stats; Expected Value: {"hp":100,"atk":165,"def":150,"spa":85,"spd":130,"spe":50}
+Difference at ed3.pokemon.4.name:
+  First: "calyrex"
+  Second: "calyrex-ice"
+Missing key in second file:	ed3.pokemon.4.icon; Expected Value: "calyrex-ice"
+Missing key in second file:	ed3.pokemon.4.types; Expected Value: ["psychic","ice"]
+Missing key in second file:	ed3.pokemon.4.stats; Expected Value: {"hp":100,"atk":165,"def":150,"spa":85,"spd":130,"spe":50}
+Difference at ed3.pokemon.5.name:
+  First: "kyurem"
+  Second: "kyurem-black"
+Missing key in second file:	ed3.pokemon.5.sprite; Expected Value: "10022"
+Missing key in second file:	ed3.pokemon.5.types; Expected Value: ["dragon","ice"]
+Missing key in second file:	ed3.pokemon.5.stats; Expected Value: {"hp":125,"atk":170,"def":100,"spa":120,"spd":90,"spe":95}
+Difference at e4.pokemon.2.name:
+  First: "zygarde"
+  Second: "zygarde-50"
+Missing key in second file:	e4.pokemon.2.sprite; Expected Value: "718"
+Missing key in second file:	e4.pokemon.2.types; Expected Value: ["dragon","ground"]
+Missing key in second file:	e4.pokemon.2.stats; Expected Value: {"hp":108,"atk":100,"def":121,"spa":81,"spd":95,"spe":95}
+Difference at ed4.pokemon.2.name:
+  First: "zygarde"
+  Second: "zygarde-50"
+Missing key in second file:	ed4.pokemon.2.sprite; Expected Value: "718"
+Missing key in second file:	ed4.pokemon.2.types; Expected Value: ["dragon","ground"]
+Missing key in second file:	ed4.pokemon.2.stats; Expected Value: {"hp":108,"atk":100,"def":121,"spa":81,"spd":95,"spe":95}
+Missing key in second file:	ec.pokemon.2.icon; Expected Value: "goodra-hisui"

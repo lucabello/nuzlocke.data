@@ -8,10 +8,9 @@ function capitalizeFirstOnly(str) {
 const fs = require('fs');
 const path = require('path');
 
-const parentDir = __dirname + "\\..";
-const dir = `${parentDir}\\nuzlocke.data`;
-const patchesDir = path.join(dir, 'patches');
-const outputDir = path.join(parentDir, 'nuzlocke.app', 'src', 'lib', 'data');
+const repoRoot = path.resolve(__dirname, '..', '..');
+const patchesDir = path.join(repoRoot, 'patches');
+const outputDir = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data');
 const patchFiles = fs.readdirSync(patchesDir).filter(f => f.endsWith('.txt') || f.endsWith('.league'));
 
 const patchOutput = {};
@@ -160,6 +159,6 @@ for (const file of patchFiles) {
     patchOutput[baseName] = result;
 }
 
-const patchesOutputPath = path.join(dir, 'patches.json');
+const patchesOutputPath = path.join(repoRoot, 'patches.json');
 fs.writeFileSync(patchesOutputPath, JSON.stringify(patchOutput, null, 2));
 console.log(`patches.json written to ${patchesOutputPath}`);

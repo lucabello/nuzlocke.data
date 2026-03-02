@@ -1,0 +1,2 @@
+First File: ../nuzlocke.app/static/api/league/blue.water.json
+Second File: ../nuzlocke.data/final/blue.water.json

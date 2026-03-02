@@ -1,0 +1,2 @@
+First File: ../nuzlocke.app/static/api/league/sp.grass.json
+Second File: ../nuzlocke.data/final/sp.grass.json

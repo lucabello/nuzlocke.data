@@ -11,23 +11,23 @@
 [group("generate")]
 generate:
 	@echo "Generating patches.json and enriched league data"
-	node parsePatch.js && node parseLeague.js
+	node src/processors/parsePatch.js && node src/processors/parseLeague.js
 
 [group("generate")]
 generate-patches:
 	@echo "Generating patches.json"
-	node parsePatch.js
+	node src/processors/parsePatch.js
 
 [group("generate")]
 generate-leagues:
 	@echo "Generating league JSON"
-	node parseLeague.js
+	node src/processors/parseLeague.js
 
 # parseRoutes.js uses ESM imports; the dynamic-import wrapper below will attempt to load it cross-platform
 [group("generate")]
 generate-routes:
-	@echo "Generating routes.json (using dynamic import to support ESM)"
-	node -e "import('./parseRoutes.js').catch(e => { console.error(e); process.exit(1) })"
+	@echo "Generating routes.json"
+	node src/processors/parseRoutes.js
 
 [group("dev")]
 validate:

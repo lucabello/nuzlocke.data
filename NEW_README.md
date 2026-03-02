@@ -7,7 +7,7 @@ This repository holds the text-based source data used to generate the JSON data 
 ## Quick summary / intent
 
 - Input: `patches/*.txt`, `leagues/*.txt`, and `routes/*` text files.
-- Processors: `parsePatch.js`, `parseLeague.js`, and `parseRoutes.js`.
+- Processors: `src/processors/parsePatch.js`, `src/processors/parseLeague.js`, and `src/processors/parseRoutes.js`.
 - Intermediate: `patches.json`, `league.json` (in this repo), and per-game JSON files written into the sibling `nuzlocke.app` repo.
 - Output locations expected by the app: `../nuzlocke.app/static/api/league/*` and `../nuzlocke.app/src/lib/data/routes.json` (for route metadata).
 
@@ -54,9 +54,9 @@ If any of these files are missing, parseLeague.js will fail. You may need to run
 - `patches/` — text files per-game describing changes to abilities, moves, items, pokemon, and fakemon for romhacks
 - `leagues/` — per-game boss/leader files (.txt or .league) describing battles and pokemon loadouts
 - `routes/` — route encounter lists and optional boss markers
-- `parsePatch.js` — reads `patches/*.txt` and writes `patches.json`
-- `parseLeague.js` — reads leagues, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
-- `parseRoutes.js` — compiles `routes/*` into a `routes.json` file intended for the app
+- `src/processors/parsePatch.js` — reads `patches/*.txt` and writes `patches.json`
+- `src/processors/parseLeague.js` — reads leagues, uses `patches.json` + data from `nuzlocke.app` to generate enriched league JSON and per-game JSON files
+- `src/processors/parseRoutes.js` — compiles `routes/*` into a `routes.json` file intended for the app
 - `validate.js` & `validator.sh` — helpers to compare generated files between this repo and `nuzlocke.app` outputs
 - `final/` — (historical) output JSON files (used for validation comparison)
 - `patches.json`, `league.json` (top-level artifacts produced by the scripts)
@@ -86,20 +86,20 @@ node -v
 ```bash
 # from the nuzlocke.data repo root
 npm run generate
-# this executes: node parsePatch.js && node parseLeague.js
+# this executes: node src/processors/parsePatch.js && node src/processors/parseLeague.js
 ```
 
 What happens:
-- `parsePatch.js` reads `patches/*.txt` and writes `patches.json` (in this repo).
-- `parseLeague.js` reads `leagues/*.txt` and `patches.json`, merges data with the app's base JSON (moves, items, abilities, pokemon data) and writes:
+- `src/processors/parsePatch.js` reads `patches/*.txt` and writes `patches.json` (in this repo).
+- `src/processors/parseLeague.js` reads `leagues/*.txt` and `patches.json`, merges data with the app's base JSON (moves, items, abilities, pokemon data) and writes:
   - `league.json` (aggregated enriched league data inside this repo)
   - per-game JSON files into the sibling app at `../nuzlocke.app/static/api/league/` and also into this repo's `final/` directory (if present)
 
 4. Generate routes (optional):
 
 ```bash
-# parseRoutes.js uses ES module syntax. Try the dynamic-import invocation which works across Node versions:
-node -e "import('./parseRoutes.js').catch(e => { console.error(e); process.exit(1) })"
+# parseRoutes.js uses ES module syntax. Try running the script directly:
+node src/processors/parseRoutes.js
 ```
 
 If that fails due to ESM/module config, see Troubleshooting below (you can either run Node with module support, convert `parseRoutes.js` to CommonJS, or add a minimal wrapper).
@@ -200,7 +200,7 @@ If you want to make the developer experience smoother, consider:
 npm run generate
 
 # Generate routes (if desired)
-node -e "import('./parseRoutes.js').catch(e => { console.error(e); process.exit(1) })"
+node src/processors/parseRoutes.js
 
 # Validate
 npm run validate

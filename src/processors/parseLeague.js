@@ -6,17 +6,16 @@ const LegacyDamageClassMap = {
 
 const StatKeys = ["hp", "atk", "def", "spa", "spd", "spe"];
 
-const parentDir = __dirname + "\\..";
-
 const fs = require('fs');
 const path = require('path');
+const repoRoot = path.resolve(__dirname, '..', '..');
 
 // Various directories we need
-const dataDir = `${parentDir}\\nuzlocke.data`;
-const staticDir = `${parentDir}\\nuzlocke.app\\src\\routes\\assets\\data`;
-const pokemonPath = `${parentDir}\\nuzlocke.app\\src\\routes\\api\\pokemon.json\\_pokemon.json`
+const dataDir = path.join(repoRoot);
+const staticDir = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'routes', 'assets', 'data');
+const pokemonPath = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'routes', 'api', 'pokemon.json', '_pokemon.json');
 
-const gameFileDir = `${parentDir}\\nuzlocke.app\\src\\lib\\data`;
+const gameFileDir = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data');
 const gamesPath = path.join(gameFileDir, 'games.json');
 
 // Parse games.json into an array
@@ -321,8 +320,8 @@ for (const leagueKey in finalOutput) {
 fs.writeFileSync(outputPath, JSON.stringify(finalOutput, null, 2));
 console.log(`Enriched league data written to ${outputPath}`);
 
-const finalDir = '..\\nuzlocke.app\\static\\api\\league';
-if (!fs.existsSync(finalDir)) fs.mkdirSync(finalDir);
+const finalDir = path.join(repoRoot, '..', 'nuzlocke.app', 'static', 'api', 'league');
+if (!fs.existsSync(finalDir)) fs.mkdirSync(finalDir, { recursive: true });
 
 function getDifficulties(diffArray) {
   if (!diffArray || diffArray.length === 0) return [{ title: '', suffix: '' }];

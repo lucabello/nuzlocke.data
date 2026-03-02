@@ -1,0 +1,30 @@
+First File: ../nuzlocke.app/static/api/league/unbound.grass.json
+Second File: ../nuzlocke.data/final/unbound.grass.json
+Differences found (14):
+
+Missing key in second file:	8.pokemon.0.moves.1.power; Expected Value: "70"
+Difference at 8.pokemon.0.moves.1.name:
+  First: "Leech Fang"
+  Second: "leech-fang"
+Missing key in second file:	e1.pokemon.2.moves.2.power; Expected Value: "70"
+Difference at e1.pokemon.2.moves.2.name:
+  First: "Leech Fang"
+  Second: "leech-fang"
+Difference at e2.pokemon.0.name:
+  First: "mimikyu"
+  Second: "mimikyu-disguised"
+Missing key in second file:	e2.pokemon.0.sprite; Expected Value: "778"
+Missing key in second file:	e2.pokemon.0.types; Expected Value: ["ghost","fairy"]
+Missing key in second file:	e2.pokemon.0.stats; Expected Value: {"hp":55,"atk":90,"def":80,"spa":50,"spd":105,"spe":96}
+Difference at e2.pokemon.1.moves.2.name:
+  First: "King’s Shield"
+  Second: "King's Shield"
+Difference at lr2.pokemon.4.name:
+  First: "hoopa"
+  Second: "hoopa-unbound"
+Missing key in second file:	lr2.pokemon.4.sprite; Expected Value: "10086"
+Missing key in second file:	lr2.pokemon.4.types; Expected Value: ["psychic","dark"]
+Missing key in second file:	lr2.pokemon.4.stats; Expected Value: {"hp":80,"atk":160,"def":60,"spa":170,"spd":130,"spe":80}
+Difference at lr5.pokemon.2.moves.2.name:
+  First: "Hidden Power"
+  Second: "Hidden Power Fire"
