@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
-const patchesDir = path.join(repoRoot, 'patches');
+const patchesDir = path.join(repoRoot, 'data', 'patches');
 const outputDir = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data');
 const patchFiles = fs.readdirSync(patchesDir).filter(f => f.endsWith('.txt') || f.endsWith('.league'));
 

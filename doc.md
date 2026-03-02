@@ -5,9 +5,9 @@
 Building all data is based on the following files
 
 ```
-./routes/*.txt    # <game-id>.txt
-./leagues/*.txt   # <game-id>.txt
-./patches/*.txt   # <game-id>.txt
+./data/routes/*.txt    # <game-id>.txt
+./data/leagues/*.txt   # <game-id>.txt
+./data/patches/*.txt   # <game-id>.txt
 ```
 
 Run

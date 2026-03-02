@@ -6,7 +6,7 @@ This repository holds the text-based source data used to generate the JSON data 
 
 ## Quick summary / intent
 
-- Input: `patches/*.txt`, `leagues/*.txt`, and `routes/*` text files.
+- Input: `data/patches/*.txt`, `data/leagues/*.txt`, and `data/routes/*` text files.
 - Processors: `src/processors/parsePatch.js`, `src/processors/parseLeague.js`, and `src/processors/parseRoutes.js`.
 - Intermediate: `patches.json`, `league.json` (in this repo), and per-game JSON files written into the sibling `nuzlocke.app` repo.
 - Output locations expected by the app: `../nuzlocke.app/static/api/league/*` and `../nuzlocke.app/src/lib/data/routes.json` (for route metadata).
@@ -15,9 +15,9 @@ This repository holds the text-based source data used to generate the JSON data 
 
 ```mermaid
 flowchart LR
-  patches["patches/*.txt"] --> parsePatch["parsePatch.js"]
-  leagues["leagues/*.txt"] --> parseLeague["parseLeague.js"]
-  routes["routes/*"] --> parseRoutes["parseRoutes.js"]
+  patches["data/patches/*.txt"] --> parsePatch["src/processors/parsePatch.js"]
+  leagues["data/leagues/*.txt"] --> parseLeague["src/processors/parseLeague.js"]
+  routes["data/routes/*"] --> parseRoutes["src/processors/parseRoutes.js"]
   parsePatch --> patchesJSON["patches.json"]
   parseLeague --> leagueJSON["league.json"]
   parseLeague --> appLeague["../nuzlocke.app/static/api/league/"]
@@ -124,7 +124,7 @@ The validator writes textual diffs into `validation-results/`. Review those file
 
 Below are short examples and explanations. The generator scripts are the source of truth; if you edit formats here, update the scripts.
 
-Patches (`patches/*.txt`)
+Patches (`data/patches/*.txt`)
 - Files are split into sections using lines that start with `--<section>` (e.g., `--item`, `--move`, `--ability`, `--pokemon`, `--fakemon`).
 - Lines inside a section are pipe-delimited. Examples:
 
@@ -148,7 +148,7 @@ overgrow|Powers up Grass-type moves when HP is low
 Notes:
 - See `parsePatch.js` for exact parsing details — it builds `patches.json` where each section becomes a JSON object keyed by slug or name.
 
-Leagues (`leagues/*.txt`)
+Leagues (`data/leagues/*.txt`)
 - Each boss block begins with a leader header line like:
 
 ```
@@ -159,7 +159,7 @@ Leagues (`leagues/*.txt`)
 - Pokemon lines: `name|level|move1,move2,move3,move4|ability|held-item|starter|tera-type`
 - Alternate sprite format: `pokemon>sprite|level@evs|m1,m2,m3,m4|ability|held` (see `parseLeague.js` for parsing rules).
 
-Routes (`routes/*`)
+Routes (`data/routes/*`)
 - Each file is processed into a list of entries. Lines starting with `--` are gym/battle entries with `--name|id|group|boss`.
 - Normal route lines: `Route name|encounter1,encounter2`.
 
@@ -175,7 +175,7 @@ Routes (`routes/*`)
 
 ## Contributing
 
-1. Add or edit files under `patches/`, `leagues/`, or `routes/` following the formats above.
+1. Add or edit files under `data/patches/`, `data/leagues/`, or `data/routes/` following the formats above.
 2. Run `npm run generate` locally to produce `patches.json` and updated league/game JSON.
 3. Run `npm run validate` to compare results and check for unintended differences.
 4. Open a PR with your `.txt` files and a short description of the changes. The repo owner will run the build/validation workflow and merge if all is OK.

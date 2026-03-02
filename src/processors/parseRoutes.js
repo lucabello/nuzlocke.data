@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
-const inputDir = path.join(repoRoot, 'routes');
+const inputDir = path.join(repoRoot, 'data', 'routes');
 const outputFile = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data', 'routes.json');
 
 // Master output object

@@ -22,7 +22,7 @@ const gamesPath = path.join(gameFileDir, 'games.json');
 const rawGames = JSON.parse(fs.readFileSync(gamesPath, 'utf-8'));
 const games = Object.values(rawGames.games || rawGames);
 
-const leaguesDir = path.join(dataDir, 'leagues');
+const leaguesDir = path.join(repoRoot, 'data', 'leagues');
 const outputPath = path.join(dataDir, 'league.json');
 
 const parseLeaderHeader = (line) => {
