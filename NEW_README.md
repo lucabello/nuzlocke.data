@@ -11,6 +11,22 @@ This repository holds the text-based source data used to generate the JSON data 
 - Intermediate: `patches.json`, `league.json` (in this repo), and per-game JSON files written into the sibling `nuzlocke.app` repo.
 - Output locations expected by the app: `../nuzlocke.app/static/api/league/*` and `../nuzlocke.app/src/lib/data/routes.json` (for route metadata).
 
+### Flow diagram
+
+```mermaid
+flowchart LR
+  patches["patches/*.txt"] --> parsePatch["parsePatch.js"]
+  leagues["leagues/*.txt"] --> parseLeague["parseLeague.js"]
+  routes["routes/*"] --> parseRoutes["parseRoutes.js"]
+  parsePatch --> patchesJSON["patches.json"]
+  parseLeague --> leagueJSON["league.json"]
+  parseLeague --> appLeague["../nuzlocke.app/static/api/league/"]
+  parseRoutes --> appRoutes["../nuzlocke.app/src/lib/data/routes.json"]
+  appLeague --> validator["validator.sh / validate.js"]
+  final["final/"] --> validator
+  validator --> validationResults["validation-results/"]
+```
+
 This repository is intended to be used alongside a sibling checkout of the nuzlocke.app repository at the same parent directory (i.e., `../nuzlocke.app`). The generator scripts rely on several JSON files inside that app repository (moves, items, abilities, games metadata, and a pokemon index).
 
 ---
