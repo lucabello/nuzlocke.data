@@ -3,7 +3,8 @@ const path = require('path');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
 const inputDir = path.join(repoRoot, 'data', 'routes');
-const outputFile = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data', 'routes.json');
+const appOutputFile = path.join(repoRoot, '..', 'nuzlocke.app', 'src', 'lib', 'data', 'routes.json');
+const intermediateOutputFile = path.join(repoRoot, 'build', 'intermediate', 'routes.json');
 
 // Master output object
 const allData = {};
@@ -55,6 +56,10 @@ for (const file of files) {
 
   parseFile(filePath);
 }
-fs.writeFileSync(outputFile, JSON.stringify(allData, null, 2), 'utf8');
+fs.mkdirSync(path.dirname(intermediateOutputFile), { recursive: true });
+fs.writeFileSync(intermediateOutputFile, JSON.stringify(allData, null, 2), 'utf8');
 
-console.log(`Done! Output written to ${outputFile}`);
+fs.mkdirSync(path.dirname(appOutputFile), { recursive: true });
+fs.writeFileSync(appOutputFile, JSON.stringify(allData, null, 2), 'utf8');
+
+console.log(`Done! Output written to ${intermediateOutputFile} and ${appOutputFile}`);
