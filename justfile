@@ -5,9 +5,8 @@
 	echo "For help with a specific recipe, run: just --usage <recipe>"
 
 [group("generate")]
-generate:
+generate: generate-patches generate-leagues generate-routes
 	@echo "Generating patches.json and enriched league data"
-	node src/processors/parsePatch.js && node src/processors/parseLeague.js
 
 [group("generate")]
 generate-patches:
